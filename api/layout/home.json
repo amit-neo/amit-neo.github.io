@@ -13,7 +13,7 @@
         {
           "id": 45,
           "name": "winter wear",
-          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "thumb": "/api/assets/winterwear.jpeg",
           "action_type": "search",
           "filter": [
             {
@@ -24,14 +24,14 @@
         {
           "id": 15,
           "name": "MEN",
-          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "thumb": "/api/assets/winterwear.jpeg",
           "action_type": "open_page",
           "filter": []
         },
         {
           "id": 15,
           "name": "MEN",
-          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "thumb": "/api/assets/winterwear.jpeg",
           "action_type": "external_link",
           "filter": {
             "link": "https://"
@@ -48,7 +48,7 @@
       "section_data": [
         {
           "id": 45,
-          "thumb": "https://kumaranup594.github.io/api/assets/banner_1.jpeg",
+          "thumb": "/api/assets/banner_1.jpeg",
           "action_type": "search",
           "filter": [
             {
@@ -59,16 +59,16 @@
         },
         {
           "id": 15,
-          "thumb": "https://kumaranup594.github.io/api/assets/banner_1.jpeg",
+          "thumb": "/api/assets/banner_1.jpeg",
           "action_type": "open_page",
           "filter": []
         },
         {
           "id": 15,
-          "thumb": "https://kumaranup594.github.io/api/assets/banner_1.jpeg",
+          "thumb": "/api/assets/banner_1.jpeg",
           "action_type": "external_link",
           "filter": {
-            "link": "https://kumaranup594.github.io"
+            "link": "https://amit-neo.github.io"
           }
         }
       ]
@@ -83,7 +83,7 @@
         {
           "id": 45,
           "name": "winter wear",
-          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "thumb": "/api/assets/winterwear.jpeg",
           "action_type": "search",
           "filter": [
             {
@@ -94,14 +94,14 @@
         {
           "id": 15,
           "name": "MEN",
-          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "thumb": "/api/assets/winterwear.jpeg",
           "action_type": "open_page",
           "filter": []
         },
         {
           "id": 15,
           "name": "MEN",
-          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "thumb": "/api/assets/winterwear.jpeg",
           "action_type": "external_link",
           "filter": {
             "link": "https://"

@@ -2300,8 +2300,8 @@ class PDFDocumentProxy {
     return this._transport.downloadInfoCapability.promise;
   }
 
-  cleanup(keepLoadedFonts = false) {
-    return this._transport.startCleanup(keepLoadedFonts || this.isPureXfa);
+  cleAmit(keepLoadedFonts = false) {
+    return this._transport.startCleAmit(keepLoadedFonts || this.isPureXfa);
   }
 
   destroy() {
@@ -2350,8 +2350,8 @@ class PDFPageProxy {
     this._pdfBug = pdfBug;
     this.commonObjs = transport.commonObjs;
     this.objs = new PDFObjects();
-    this.cleanupAfterRender = false;
-    this.pendingCleanup = false;
+    this.cleAmitAfterRender = false;
+    this.pendingCleAmit = false;
     this._intentStates = new Map();
     this._annotationPromises = new Map();
     this.destroyed = false;
@@ -2478,7 +2478,7 @@ class PDFPageProxy {
 
     const intentArgs = this._transport.getRenderingIntent(intent, annotationMode);
 
-    this.pendingCleanup = false;
+    this.pendingCleAmit = false;
 
     if (!optionalContentConfigPromise) {
       optionalContentConfigPromise = this._transport.getOptionalContentConfig();
@@ -2520,11 +2520,11 @@ class PDFPageProxy {
     const complete = error => {
       intentState.renderTasks.delete(internalRenderTask);
 
-      if (this.cleanupAfterRender || intentPrint) {
-        this.pendingCleanup = true;
+      if (this.cleAmitAfterRender || intentPrint) {
+        this.pendingCleAmit = true;
       }
 
-      this._tryCleanup();
+      this._tryCleAmit();
 
       if (error) {
         internalRenderTask.capability.reject(error);
@@ -2565,7 +2565,7 @@ class PDFPageProxy {
     (intentState.renderTasks ||= new Set()).add(internalRenderTask);
     const renderTask = internalRenderTask.task;
     Promise.all([intentState.displayReadyCapability.promise, optionalContentConfigPromise]).then(([transparency, optionalContentConfig]) => {
-      if (this.pendingCleanup) {
+      if (this.pendingCleAmit) {
         complete();
         return;
       }
@@ -2713,17 +2713,17 @@ class PDFPageProxy {
 
     this._jsActionsPromise = null;
     this._structTreePromise = null;
-    this.pendingCleanup = false;
+    this.pendingCleAmit = false;
     return Promise.all(waitOn);
   }
 
-  cleanup(resetStats = false) {
-    this.pendingCleanup = true;
-    return this._tryCleanup(resetStats);
+  cleAmit(resetStats = false) {
+    this.pendingCleAmit = true;
+    return this._tryCleAmit(resetStats);
   }
 
-  _tryCleanup(resetStats = false) {
-    if (!this.pendingCleanup) {
+  _tryCleAmit(resetStats = false) {
+    if (!this.pendingCleAmit) {
       return false;
     }
 
@@ -2749,7 +2749,7 @@ class PDFPageProxy {
       this._stats = new _display_utils.StatTimer();
     }
 
-    this.pendingCleanup = false;
+    this.pendingCleAmit = false;
     return true;
   }
 
@@ -2782,7 +2782,7 @@ class PDFPageProxy {
     }
 
     if (operatorListChunk.lastChunk) {
-      this._tryCleanup();
+      this._tryCleAmit();
     }
   }
 
@@ -2834,7 +2834,7 @@ class PDFPageProxy {
             internalRenderTask.operatorListChanged();
           }
 
-          this._tryCleanup();
+          this._tryCleAmit();
         }
 
         if (intentState.displayReadyCapability) {
@@ -2893,7 +2893,7 @@ class PDFPageProxy {
       }
     }
 
-    this.cleanup();
+    this.cleAmit();
   }
 
   get stats() {
@@ -3714,7 +3714,7 @@ class WorkerTransport {
           const MAX_IMAGE_SIZE_TO_STORE = 8000000;
 
           if (imageData?.data?.length > MAX_IMAGE_SIZE_TO_STORE) {
-            pageProxy.cleanupAfterRender = true;
+            pageProxy.cleAmitAfterRender = true;
           }
 
           break;
@@ -3936,18 +3936,18 @@ class WorkerTransport {
     return this.messageHandler.sendWithPromise("GetMarkInfo", null);
   }
 
-  async startCleanup(keepLoadedFonts = false) {
-    await this.messageHandler.sendWithPromise("Cleanup", null);
+  async startCleAmit(keepLoadedFonts = false) {
+    await this.messageHandler.sendWithPromise("CleAmit", null);
 
     if (this.destroyed) {
       return;
     }
 
     for (const page of this.#pageCache.values()) {
-      const cleanupSuccessful = page.cleanup();
+      const cleAmitSuccessful = page.cleAmit();
 
-      if (!cleanupSuccessful) {
-        throw new Error(`startCleanup: Page ${page.pageNumber} is currently rendering.`);
+      if (!cleAmitSuccessful) {
+        throw new Error(`startCleAmit: Page ${page.pageNumber} is currently rendering.`);
       }
     }
 

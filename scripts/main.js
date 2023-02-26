@@ -5,10 +5,10 @@ const app = Vue.createApp({
   data() {
     return {
       // the date my career started (change to yours)
-      careerStartDate: 2012,
+      careerStartDate: 2020,
 
       // the date copyright started (change to yours)
-      copyrightStartDate: 2021,
+      copyrightStartDate: 2022,
 
       // for the template theme
       appTheme: 'light_theme',
@@ -146,34 +146,26 @@ const app = Vue.createApp({
 
       // list of experience items to loop through it
       experienceItems: [
-         {
-          date: '2011',
-          companyName: { en: 'Immortal Solution', ar: '' },
-          jobTitle: { en: 'Junior Full Stack PHP Developer', ar: '' },
-          desc: {
-            en: 'My primary role was to design & develop small websites e.g informational website for schools, hospitals etc.',
-            ar: ''
-          }
-        }, {
-          date: '2013',
+       {
+          date: '2020',
           companyName: { en: 'NexGen Innovators', ar: '' },
-          jobTitle: { en: 'Full Stack PHP Developer', ar: '' },
+          jobTitle: { en: 'Junior Web Developer', ar: '' },
           desc: {
             en: 'My Primary goal was to manage eCommerce website & software based on CodeIgniter 2.x & 3.x & WordPress/WooCommerce Websites',
             ar: ''
           }
         }, {
-          date: '2015',
-          companyName: { en: 'Web Tech Vocational Training', ar: '' },
-          jobTitle: { en: 'Industrial Trainer', ar: '' },
+          date: '2022',
+          companyName: { en: 'Digiware IT Solutions', ar: '' },
+          jobTitle: { en: 'Web Developer', ar: '' },
           desc: {
-            en: 'I got chance to provide industrial training in B.tech student, My Role was to sync students with industrial environment',
+            en: 'My Primary goal was to develop and manage website & webApps for our clients',
             ar: ''
           }
         }, {
-          date: '2017',
-          companyName: { en: 'NexGen Innovators', ar: '' },
-          jobTitle: { en: 'Senior Full Stack PHP Developer & Consultant', ar: '' },
+          date: '2023',
+          companyName: { en: 'Fluper Limited', ar: '' },
+          jobTitle: { en: 'Angular Web Developer', ar: '' },
           desc: {
             en: 'My primary role has been changed and I shifted to provide end to end complex solution e.g PHP based software & web apps.',
             ar: ''
@@ -258,7 +250,7 @@ const app = Vue.createApp({
         {
           imgUrl: 'assets/images/testimonials/testimonials-1.jpg',
           quoteContent: {
-            en: 'Anup simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Anup to anyone.',
+            en: 'Amit simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Amit to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: { en: 'Terrell Grimes', ar: 'جابر العواني' },
@@ -266,7 +258,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Anup is one of the professional web development agency that provides awesome services.',
+            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Amit is one of the professional web development agency that provides awesome services.',
             ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
           },
           quoteAuthor: { en: 'Lonny Corkery', ar: 'حسون القلال' },
@@ -274,7 +266,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
           quoteContent: {
-            en: 'Anup team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Amit team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
           quoteAuthor: { en: 'Max Schmidt DDS', ar: 'مصطفى الخليفي' },
@@ -282,7 +274,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
           quoteContent: {
-            en: 'Anup worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: { en: 'Amir Stoltenberg', ar: 'عباس العنابي' },
@@ -298,7 +290,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
           quoteContent: {
-            en: 'Anup was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            en: 'Amit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
           quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
@@ -306,7 +298,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
           quoteContent: {
-            en: 'Anup was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            en: 'Amit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
           quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
@@ -322,7 +314,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
           quoteContent: {
-            en: 'Anup worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
@@ -330,7 +322,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
           quoteContent: {
-            en: 'Anup team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Amit team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
           quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
@@ -346,7 +338,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
           quoteContent: {
-            en: 'Anup simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Amit simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
@@ -354,7 +346,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
           quoteContent: {
-            en: 'Anup simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
+            en: 'Amit simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
             ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
           },
           quoteAuthor: { en: 'Tabitha Denesik', ar: 'آسر بنسلامة' },
@@ -370,7 +362,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
           quoteContent: {
-            en: 'Anup is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
+            en: 'Amit is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
             ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
           },
           quoteAuthor: { en: 'Duncan Kemmer', ar: 'سيد كرم' },
@@ -378,7 +370,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
           quoteContent: {
-            en: 'Anup worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
+            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
             ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
           },
           quoteAuthor: { en: 'Coy Johns', ar: 'هيثم الشريف' },
@@ -394,7 +386,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
           quoteContent: {
-            en: 'Anup was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
+            en: 'Amit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
             ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
           },
           quoteAuthor: { en: 'Dimitri Lockman', ar: 'وسيم السقا' },
