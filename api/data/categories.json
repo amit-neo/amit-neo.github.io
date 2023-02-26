@@ -1,0 +1,2928 @@
+{
+  "succ": true,
+  "status_code": 200,
+  "public_msg": "",
+  "data": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-tshirts",
+                  "style": "",
+                  "title": "T-Shirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-casual-shirts",
+                  "style": "",
+                  "title": "Casual Shirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-formal-shirts",
+                  "style": "",
+                  "title": "Formal Shirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sweatshirts",
+                  "style": "",
+                  "title": "Sweatshirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sweaters",
+                  "style": "",
+                  "title": "Sweaters"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-jackets",
+                  "style": "",
+                  "title": "Jackets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-blazers",
+                  "style": "",
+                  "title": "Blazers & Coats"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "style": "",
+                  "title": "Suits",
+                  "url": "/men-suits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/rain-jacket",
+                  "style": "",
+                  "title": "Rain Jackets"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-topwear",
+              "style": "",
+              "title": "Topwear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-kurtas",
+                  "style": "",
+                  "title": "Kurtas & Kurta Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/sherwani",
+                  "style": "",
+                  "title": "Sherwanis"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/nehru-jackets",
+                  "style": "",
+                  "title": "Nehru Jackets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/dhoti",
+                  "style": "",
+                  "title": "Dhotis"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-ethnic-wear",
+              "style": "",
+              "title": "Indian & Festive Wear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-jeans",
+                  "style": "",
+                  "title": "Jeans"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-casual-trousers",
+                  "style": "",
+                  "title": "Casual Trousers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-formal-trousers",
+                  "style": "",
+                  "title": "Formal Trousers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "style": "",
+                  "title": "Shorts",
+                  "url": "/mens-shorts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-trackpants",
+                  "style": "",
+                  "title": "Track Pants & Joggers"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-bottomwear",
+              "style": "",
+              "title": "Bottomwear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-briefs-and-trunks",
+                  "style": "",
+                  "title": "Briefs & Trunks"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-boxers",
+                  "style": "",
+                  "title": "Boxers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-innerwear-vests",
+                  "style": "",
+                  "title": "Vests"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-nightwear",
+                  "style": "",
+                  "title": "Sleepwear & Loungewear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-thermals",
+                  "style": "",
+                  "title": "Thermals"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-innerwear",
+              "style": "",
+              "title": "Innerwear & Sleepwear"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/men-plus-size",
+              "style": "",
+              "title": "Plus Size"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-casual-shoes",
+                  "style": "",
+                  "title": "Casual Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sports-shoes",
+                  "style": "",
+                  "title": "Sports Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-formal-shoes",
+                  "style": "",
+                  "title": "Formal Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sneakers",
+                  "style": "",
+                  "title": "Sneakers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sandals",
+                  "style": "",
+                  "title": "Sandals & Floaters"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-flip-flops",
+                  "style": "",
+                  "title": "Flip Flops"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-socks",
+                  "style": "",
+                  "title": "Socks"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-footwear",
+              "style": "",
+              "title": "Footwear"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/men-personal-care",
+              "style": "",
+              "title": "Personal Care & Grooming"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/men-sunglasses",
+              "style": "",
+              "title": "Sunglasses & Frames"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/mens-watches",
+              "style": "",
+              "title": "Watches"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sports-shoes",
+                  "style": "",
+                  "title": "Sports Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sports-sandals",
+                  "style": "",
+                  "title": "Sports Sandals"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sports-wear-tshirts",
+                  "style": "",
+                  "title": "Active T-Shirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-trackpants-shorts",
+                  "style": "",
+                  "title": "Track Pants & Shorts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-tracksuits",
+                  "style": "",
+                  "title": "Tracksuits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sports-jackets",
+                  "style": "",
+                  "title": "Jackets & Sweatshirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-sports-accessories",
+                  "style": "",
+                  "title": "Sports Accessories"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-swimwear",
+                  "style": "",
+                  "title": "Swimwear"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-sports-wear",
+              "style": "",
+              "title": "Sports & Active Wear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/smart-wearables",
+                  "style": "",
+                  "title": "Smart Wearables"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/smart-wearables?f=Categories%3AFitness%20Bands",
+                  "style": "",
+                  "title": "Fitness Gadgets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/headphones",
+                  "style": "",
+                  "title": "Headphones"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/speakers",
+                  "style": "",
+                  "title": "Speakers"
+                }
+              }
+            ],
+            "props": {
+              "url": "/gadgets",
+              "style": "",
+              "title": "Gadgets"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-wallets",
+                  "style": "",
+                  "title": "Wallets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-belts",
+                  "style": "",
+                  "title": "Belts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/perfumes",
+                  "style": "",
+                  "title": "Perfumes & Body Mists"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/trimmer",
+                  "style": "",
+                  "title": "Trimmers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/deodorant",
+                  "style": "",
+                  "title": "Deodorants"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-belts-ties",
+                  "style": "",
+                  "title": "Ties, Cufflinks & Pocket Squares"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-accessory-gift-set",
+                  "style": "",
+                  "title": "Accessory Gift Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-caps",
+                  "style": "",
+                  "title": "Caps & Hats"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-gloves-mufflers-scarves",
+                  "style": "",
+                  "title": "Mufflers, Scarves & Gloves"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/mobile-phone-cases",
+                  "style": "",
+                  "title": "Phone Cases"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/men-jewellery",
+                  "style": "",
+                  "title": "Rings & Wristwear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/helmets",
+                  "style": "",
+                  "title": "Helmets"
+                }
+              }
+            ],
+            "props": {
+              "url": "/men-accessories",
+              "style": "",
+              "title": "Fashion Accessories"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/men-bags-backpacks",
+              "style": "",
+              "title": "Bags & Backpacks"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/trolley-bags",
+              "style": "",
+              "title": "Luggages & Trolleys"
+            }
+          }
+        ],
+        "props": {
+          "url": "/shop/men",
+          "style": "",
+          "title": "Men",
+          "meta": {
+            "dock": "true",
+            "template": "fashion",
+            "template_config": {
+              "position": 3,
+              "color": "#ee5f73",
+              "icon": "http://myntra.myntassets.com/assets/premium/temp/Men.png"
+            }
+          }
+        }
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-kurtas-kurtis-suits",
+                  "style": "",
+                  "title": "Kurtas & Suits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/ethnic-tops",
+                  "style": "",
+                  "title": "Kurtis, Tunics & Tops"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-ethnic-wear",
+                  "style": "",
+                  "title": "Ethnic Wear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-ethnic-bottomwear?f=categories%3AChuridar%2CLeggings%2CSalwar",
+                  "style": "",
+                  "title": "Leggings, Salwars & Churidars"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/skirts-palazzos",
+                  "style": "",
+                  "title": "Skirts & Palazzos"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/saree",
+                  "style": "",
+                  "title": "Sarees"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/dress-material",
+                  "style": "",
+                  "title": "Dress Materials"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/lehenga-choli",
+                  "style": "",
+                  "title": "Lehenga Cholis"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/dupatta-shawl",
+                  "style": "",
+                  "title": "Dupattas & Shawls"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-jackets",
+                  "style": "",
+                  "title": "Jackets"
+                }
+              }
+            ],
+            "props": {
+              "url": "/fusion-wear",
+              "style": "",
+              "title": "Indian & Fusion Wear"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/women-accessories",
+              "style": "",
+              "title": "Belts, Scarves & More"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/women-watches",
+              "style": "",
+              "title": "Watches & Wearables"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/dresses?f=Gender%3Amen%20women%2Cwomen",
+                  "style": "",
+                  "title": "Dresses"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/jumpsuits?f=Gender%3Amen%20women%2Cwomen",
+                  "style": "",
+                  "title": "Jumpsuits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/tops",
+                  "style": "",
+                  "title": "Tops"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-jeans",
+                  "style": "",
+                  "title": "Jeans"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-trousers",
+                  "style": "",
+                  "title": "Trousers & Capris"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-shorts-skirts",
+                  "style": "",
+                  "title": "Shorts & Skirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-shrugs",
+                  "style": "",
+                  "title": "Shrugs"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-sweaters-sweatshirts",
+                  "style": "",
+                  "title": "Sweaters & Sweatshirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-jackets-coats",
+                  "style": "",
+                  "title": "Jackets & Coats"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-blazers-waistcoats",
+                  "style": "",
+                  "title": "Blazers & Waistcoats"
+                }
+              }
+            ],
+            "props": {
+              "url": "/womens-western-wear",
+              "style": "",
+              "title": "Western Wear"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/women-plus-store",
+              "style": "",
+              "title": "Plus Size"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/women-sunglasses",
+              "style": "",
+              "title": "Sunglasses & Frames"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/flats",
+                  "style": "",
+                  "title": "Flats"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-casual-shoes",
+                  "style": "",
+                  "title": "Casual Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-heels",
+                  "style": "",
+                  "title": "Heels"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-boots-menu?f=Type_article_attr%3Aflat%20boots%2Cheeled%20boots",
+                  "style": "",
+                  "title": "Boots"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-sports-shoes",
+                  "style": "",
+                  "title": "Sports Shoes & Floaters"
+                }
+              }
+            ],
+            "props": {
+              "url": "/women-footwear",
+              "style": "",
+              "title": "Footwear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-sportswear-clothing",
+                  "style": "",
+                  "title": "Clothing"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-sports-shoes",
+                  "style": "",
+                  "title": "Footwear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-sports-accessories",
+                  "style": "",
+                  "title": "Sports Accessories"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-sports-equipments",
+                  "style": "",
+                  "title": "Sports Equipment"
+                }
+              }
+            ],
+            "props": {
+              "url": "/women-sportswear",
+              "style": "",
+              "title": "Sports & Active Wear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/bra",
+                  "style": "",
+                  "title": "Bra"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-briefs",
+                  "style": "",
+                  "title": "Briefs"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-clothing-shapewear",
+                  "style": "",
+                  "title": "Shapewear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-loungewear-and-nightwear",
+                  "style": "",
+                  "title": "Sleepwear & Loungewear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-swimwear",
+                  "style": "",
+                  "title": "Swimwear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/camisoles-and-thermals",
+                  "style": "",
+                  "title": "Camisoles & Thermals"
+                }
+              }
+            ],
+            "props": {
+              "url": "/lingerie",
+              "style": "",
+              "title": "Lingerie & Sleepwear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/makeup",
+                  "style": "",
+                  "title": "Makeup"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/skin-care?f=gender%3Amen%20women%2Cwomen",
+                  "style": "",
+                  "title": "Skincare"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-personal-care?f=brand%3ABobbi%20Brown%2CBvlgari%2CCalvin%20Klein%2CClinique%2CDAVIDOFF%2CDermalogica%2CForest%20Essentials%2CKAMA%20AYURVEDA%2CSalvatore%20Ferragamo",
+                  "style": "",
+                  "title": "Premium Beauty"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/lipstick",
+                  "style": "",
+                  "title": "Lipsticks"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/women-perfumes",
+                  "style": "",
+                  "title": "Fragrances"
+                }
+              }
+            ],
+            "props": {
+              "url": "/women-personal-care",
+              "style": "",
+              "title": "Beauty & Personal Care"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/smart-wearables",
+                  "style": "",
+                  "title": "Smart Wearables"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/smart-wearables?f=Categories%3AFitness%20Bands",
+                  "style": "",
+                  "title": "Fitness Gadgets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/headphones",
+                  "style": "",
+                  "title": "Headphones"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/speakers",
+                  "style": "",
+                  "title": "Speakers"
+                }
+              }
+            ],
+            "props": {
+              "url": "/gadgets",
+              "style": "",
+              "title": "Gadgets"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/fashion-jewellery",
+                  "style": "",
+                  "title": "Fashion Jewellery"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/fine-jewellery",
+                  "style": "",
+                  "title": "Fine Jewellery"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/earrings",
+                  "style": "",
+                  "title": "Earrings"
+                }
+              }
+            ],
+            "props": {
+              "url": "/women-jewellery",
+              "style": "",
+              "title": "Jewellery"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/backpacks-for-women",
+              "style": "",
+              "title": "Backpacks"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/handbags-and-bags",
+              "style": "",
+              "title": "Handbags, Bags & Wallets"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/trolley-bags",
+              "style": "",
+              "title": "Luggages & Trolleys"
+            }
+          }
+        ],
+        "props": {
+          "url": "/shop/women",
+          "style": "",
+          "title": "Women",
+          "meta": {
+            "dock": "true",
+            "template": "fashion",
+            "template_config": {
+              "position": 3,
+              "color": "#fb56c1",
+              "icon": "http://myntra.myntassets.com/assets/premium/temp/women_2.png"
+            }
+          }
+        }
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ATshirts%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "T-Shirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AShirts%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Shirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AShorts%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Shorts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AJeans%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Jeans"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ATrousers%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Trousers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AClothing%20Set%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Clothing Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/ki-etnhc?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Ethnic Wear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ALounge%20Pants%2CPyjamas%2CTrack%20Pants%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Track Pants & Pyjamas"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ADresses%2CJackets%2CSweaters%2CSweatshirts%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Jacket, Sweater & Sweatshirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kdsprtywr?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Party Wear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-innerwear?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Innerwear & Thermals"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-nightwear?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Nightwear & Loungewear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-packs-?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false",
+                  "style": "",
+                  "title": "Value Packs"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kids?f=Gender%3Aboys%2Cboys%20girls&plaEnabled=false",
+              "style": "",
+              "title": "Boys Clothing"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ADresses%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Dresses"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ATops%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Tops"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ATshirts%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Tshirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AClothing%20Set%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Clothing Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ALehenga%20Choli&plaEnabled=false",
+                  "style": "",
+                  "title": "Lehenga choli"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AKurta%20Sets%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Kurta Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kdsprtywr?f=Gender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Party wear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ADungarees%2CJumpsuit%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Dungarees & Jumpsuits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AShorts%2CSkirts%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Skirts & shorts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ALeggings%2CStockings%2CTights%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Tights & Leggings"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ACapris%2CJeans%2CJeggings%2CTrousers%3A%3AGender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Jeans, Trousers & Capris"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ACoats%2CJackets%2CSweaters%2CSweatshirts%2CThermal%20Bottoms%2CThermal%20Set%2CThermal%20Tops%3A%3AGender%3Aboys%20girls%2Cgirls",
+                  "style": "",
+                  "title": "Jacket, Sweater & Sweatshirts"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-innerwear?f=Gender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Innerwear & Thermals"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-nightwear?f=Gender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Nightwear & Loungewear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-packs-?f=Gender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+                  "style": "",
+                  "title": "Value Packs"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kids?f=Gender%3Aboys%20girls%2Cgirls&plaEnabled=false",
+              "style": "",
+              "title": "Girls Clothing"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-footwear?f=Categories%3ACasual%20Shoes&plaEnabled=false",
+                  "style": "",
+                  "title": "Casual Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-footwear?f=Categories%3AFlip%20Flops&plaEnabled=false",
+                  "style": "",
+                  "title": "Flipflops"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-footwear?f=Categories%3ASports%20Shoes&plaEnabled=false",
+                  "style": "",
+                  "title": "Sports Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-footwear?f=Categories%3AFlats&plaEnabled=false",
+                  "style": "",
+                  "title": "Flats"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-footwear?f=Categories%3ASandals%2CSports%20Sandals&plaEnabled=false",
+                  "style": "",
+                  "title": "Sandals"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids-footwear?f=Categories%3AHeels&plaEnabled=false",
+                  "style": "",
+                  "title": "Heels"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/school-shoes?plaEnabled=false",
+                  "style": "",
+                  "title": "School Shoes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ABooties%2CSocks&plaEnabled=false",
+                  "style": "",
+                  "title": "Socks"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kids-footwear",
+              "style": "",
+              "title": "Footwear"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/toys?f=Categories%3ALearning%20and%20Development%20Toys&plaEnabled=false",
+                  "style": "",
+                  "title": "Learning & Development"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/toys?f=Categories%3AActivity%20Toys%20and%20Games&plaEnabled=false",
+                  "style": "",
+                  "title": "Activity Toys"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/toys?f=Categories%3ASoft%20Toys%20and%20Dolls&plaEnabled=false",
+                  "style": "",
+                  "title": "Soft Toys"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/toys?f=Categories%3AAction%20Figures%20and%20Play%20Set&plaEnabled=false",
+                  "style": "",
+                  "title": "Action Figure / Play set"
+                }
+              }
+            ],
+            "props": {
+              "url": "/toys",
+              "style": "",
+              "title": "Toys"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ABodysuit&plaEnabled=false",
+                  "style": "",
+                  "title": "Bodysuits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ARompers%2CSleepsuit&plaEnabled=false",
+                  "style": "",
+                  "title": "Rompers & Sleepsuits"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3AClothing%20Set&plaEnabled=false",
+                  "style": "",
+                  "title": "Clothing Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ATops%2CTshirts&plaEnabled=false",
+                  "style": "",
+                  "title": "Tshirts & Tops"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ADresses&plaEnabled=false",
+                  "style": "",
+                  "title": "Dresses"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ACapris%2CJeans%2CJeggings%2CLeggings%2CLounge%20Pants%2CLounge%20Shorts%2CPyjamas%2CShorts%2CSkirts%2CTights%2CTrack%20Pants%2CTrousers&plaEnabled=false",
+                  "style": "",
+                  "title": "Bottom wear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/inf-tki?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ABlazers%2CJackets%2CSweaters%2CSweatshirts%2CWaistcoat&plaEnabled=false",
+                  "style": "",
+                  "title": "Winter Wear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/inf-tki?f=Categories%3ABoxers%2CBriefs%2CCamisoles%2CInnerwear%20Vests%2CNight%20suits%2CPyjamas%2CThermal%20Bottoms%2CThermal%20Set%2CThermal%20Tops%2CTrunk&plaEnabled=false",
+                  "style": "",
+                  "title": "Innerwear & Sleepwear"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ABaby%20Apparel%20Gift%20Set%2CBaby%20Care%20Products%2CBaby%20Gear%20%26%20Nursery%2CBibs%2CDiaper%20Bags%2CMittens%2CNapkin%20Set&plaEnabled=false",
+                  "style": "",
+                  "title": "Infant Care"
+                }
+              }
+            ],
+            "props": {
+              "url": "/inf-tki",
+              "style": "",
+              "title": "Infants"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/kids-home-bath",
+              "style": "",
+              "title": "Home & Bath"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/kids?f=Categories%3ABaby%20Care%20Products%2CBath%20and%20Body%20Gift%20Set%2CBathroom%20Accessories%2CBody%20Lotion%2CBody%20Oil%2CBody%20Wash%20and%20Scrub%2CDeodorant%2CFace%20Wash%20and%20Cleanser%2CHair%20Brush%20and%20Comb%2CHair%20Oil%2CShampoo%20and%20Conditioner%2CSunscreen%2CTissues%20and%20Wipes%2CToiletry%20Kit&plaEnabled=false",
+              "style": "",
+              "title": "Personal Care"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ABackpacks%2CSchool%20Essentials%2CStationery%2CWater%20Bottle&plaEnabled=false",
+                  "style": "",
+                  "title": "Bags & Backpacks"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AWatch%20Gift%20Set%2CWatches&plaEnabled=false",
+                  "style": "",
+                  "title": "Watches"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AHair%20Accessory%2CHair%20Brush%20and%20Comb%2CJewellery%20Set%2CNecklace%20and%20Chains&plaEnabled=false",
+                  "style": "",
+                  "title": "Jewellery & Hair accessory"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ASunglasses&plaEnabled=false",
+                  "style": "",
+                  "title": "Sunglasses"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3AOutdoor%20Masks&plaEnabled=false",
+                  "style": "",
+                  "title": "Masks & Protective Gears"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Categories%3ACaps%2CHat&plaEnabled=false",
+                  "style": "",
+                  "title": "Caps & Hats"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kids-accessories",
+              "style": "",
+              "title": "Kids Accessories"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3AH%26M&plaEnabled=false",
+                  "style": "",
+                  "title": "H&M"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3Amax&plaEnabled=false",
+                  "style": "",
+                  "title": "Max Kids"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3AAKKRITI%20BY%20PANTALOONS%2CAjile%20by%20Pantaloons%2CCHALK%20by%20Pantaloons%2CChirpie%20Pie%20by%20Pantaloons%2CPOPPERS%20by%20Pantaloons%2CPantaloons%20Baby%2CPantaloons%20Junior%2Cindus%20route%20by%20Pantaloons&plaEnabled=false",
+                  "style": "",
+                  "title": "Pantaloons"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3AUnited%20Colors%20of%20Benetton&plaEnabled=false",
+                  "style": "",
+                  "title": "United Colors Of Benetton Kids"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3AYK%2CYK%20Basics%2CYK%20Disney%2CYK%20Justice%20League%2CYK%20Marvel%2CYK%20Organic%2CYK%20Star%20Wars&plaEnabled=false",
+                  "style": "",
+                  "title": "YK"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3AU.S.%20Polo%20Assn.%2CU.S.%20Polo%20Assn.%20Kids&plaEnabled=false",
+                  "style": "",
+                  "title": "U.S. Polo Assn. Kids"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3Amothercare&plaEnabled=false",
+                  "style": "",
+                  "title": "Mothercare"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Brand%3AHRX%20by%20Hrithik%20Roshan&plaEnabled=false",
+                  "style": "",
+                  "title": "HRX"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kids",
+              "style": "",
+              "title": "Brands"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/inf-tki?f=Age%3A0M-3M%2CNewborn&plaEnabled=false",
+                  "style": "",
+                  "title": "New Born"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn&plaEnabled=false",
+                  "style": "",
+                  "title": "0-2 years"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A2Y-4Y&plaEnabled=false",
+                  "style": "",
+                  "title": "2-4Y"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A4Y-6Y&plaEnabled=false",
+                  "style": "",
+                  "title": "4-6Y"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A6Y-8Y&plaEnabled=false",
+                  "style": "",
+                  "title": "6-8Y"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A8Y-10Y&plaEnabled=false",
+                  "style": "",
+                  "title": "8-10Y"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A10Y-12Y&plaEnabled=false",
+                  "style": "",
+                  "title": "10-12Y"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A12Y-14Y&plaEnabled=false",
+                  "style": "",
+                  "title": "12-14Y"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kids?f=Age%3A14Y%2B&plaEnabled=false",
+                  "style": "",
+                  "title": "14Y+"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kids?sort=age",
+              "style": "",
+              "title": "Age"
+            }
+          }
+        ],
+        "props": {
+          "url": "/shop/kids",
+          "style": "",
+          "title": "Kids",
+          "meta": {
+            "dock": "true",
+            "template": "fashion",
+            "template_config": {
+              "position": 3,
+              "color": "#f26a10",
+              "icon": "http://myntra.myntassets.com/assets/premium/temp/kids.png"
+            }
+          }
+        }
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/bedsheets",
+                  "style": "",
+                  "title": "Bedsheets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bedding-sets",
+                  "style": "",
+                  "title": "Bedding Sets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/blankets-quilts-and-dohars",
+                  "style": "",
+                  "title": "Blankets, Quilts & Dohars"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/pillows",
+                  "style": "",
+                  "title": "Pillows & Pillow Covers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bed-covers",
+                  "style": "",
+                  "title": "Bed Covers"
+                }
+              }
+            ],
+            "props": {
+              "url": "/bedding",
+              "style": "",
+              "title": "Bed Linen & Furnishing"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/carpets",
+                  "style": "",
+                  "title": "Carpets"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/floor-mats-dhurries",
+                  "style": "",
+                  "title": "Floor Mats & Dhurries"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/doormats",
+                  "style": "",
+                  "title": "Door Mats"
+                }
+              }
+            ],
+            "props": {
+              "url": "/flooring",
+              "style": "",
+              "title": "Flooring"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/towels",
+                  "style": "",
+                  "title": "Bath Towels"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hand-towels",
+                  "style": "",
+                  "title": "Hand & Face Towels"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/beach-towels",
+                  "style": "",
+                  "title": "Beach Towels"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/towel-set",
+                  "style": "",
+                  "title": "Towels Set"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bath-rugs",
+                  "style": "",
+                  "title": "Bath Rugs"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bath-robes",
+                  "style": "",
+                  "title": "Bath Robes"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bathroom-accessories",
+                  "style": "",
+                  "title": "Bathroom Accessories"
+                }
+              }
+            ],
+            "props": {
+              "url": "/bath",
+              "style": "",
+              "title": "Bath"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/floorlamp",
+                  "style": "",
+                  "title": "Floor Lamps"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/ceilinglamp",
+                  "style": "",
+                  "title": "Ceiling Lamps"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/tablelamp",
+                  "style": "",
+                  "title": "Table Lamps"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/walllamp",
+                  "style": "",
+                  "title": "Wall Lamps"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/outdoorlamp",
+                  "style": "",
+                  "title": "Outdoor Lamps"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/stringlight",
+                  "style": "",
+                  "title": "String Lights"
+                }
+              }
+            ],
+            "props": {
+              "url": "/lightsnlamps",
+              "style": "",
+              "title": "Lamps & Lighting"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/artificial-flowers-and-plants-planters",
+                  "style": "",
+                  "title": "Plants & Planters"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/aroma-oil-diffusers-aroma-oils-air-freshener-handheld-air-fresheners-home-fragrances-home-fragrance-set-candles",
+                  "style": "",
+                  "title": "Aromas & Candles"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/clocks",
+                  "style": "",
+                  "title": "Clocks"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/mirrors",
+                  "style": "",
+                  "title": "Mirrors"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/wall-decor",
+                  "style": "",
+                  "title": "Wall Décor"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/wall-shelves",
+                  "style": "",
+                  "title": "Wall Shelves"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/fountains",
+                  "style": "",
+                  "title": "Fountains"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/home-decor-showpieces-vases",
+                  "style": "",
+                  "title": "Showpieces & Vases"
+                }
+              }
+            ],
+            "props": {
+              "url": "/decorhome",
+              "style": "",
+              "title": "Home Décor"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/cushion-and-cushion-covers",
+              "style": "",
+              "title": "Cushions & Cushion Covers"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/curtains",
+              "style": "",
+              "title": "Curtains"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/homegiftsets",
+              "style": "",
+              "title": "Home Gift Sets"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/dinnerware-serveware-trays-water-bottle",
+                  "style": "",
+                  "title": "Dinnerware & Serveware"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/cups-and-mugs",
+                  "style": "",
+                  "title": "Cups and Mugs"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bakeware-cookware",
+                  "style": "",
+                  "title": "Bakeware & Cookware"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kitchen-storage-kitchen-tools",
+                  "style": "",
+                  "title": "Kitchen Storage & Tools"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bar-and-drinkware-bar-accessories",
+                  "style": "",
+                  "title": "Bar & Drinkware"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/runners-table-placemats-table-cloth-table-covers-table-napkins-table-mat-oven-glove-aprons-kitchen-linen-sets-kitchen-gloves-table-linen-sets-napkin-set",
+                  "style": "",
+                  "title": "Table Covers & Furnishings"
+                }
+              }
+            ],
+            "props": {
+              "url": "/kitchenntable",
+              "style": "",
+              "title": "Kitchen & Table"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/organisers",
+                  "style": "",
+                  "title": "Organisers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hooks-and-holders",
+                  "style": "",
+                  "title": "Hooks & Holders"
+                }
+              }
+            ],
+            "props": {
+              "url": "/home-furnishing-menu?f=Categories%3ABathroom%20Accessories%2CBins%2CHanger%2CHooks%20and%20Holders%2CShower%20Curtains",
+              "style": "",
+              "title": "Storage"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/home-centre",
+                  "style": "",
+                  "title": "Home Centre"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/spaces",
+                  "style": "",
+                  "title": "Spaces"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/ddecor",
+                  "style": "",
+                  "title": "D'Decor"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/portico-new-york",
+                  "style": "",
+                  "title": "Portico New York"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/pure-home-and-living",
+                  "style": "",
+                  "title": "Pure Home & Living"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/swayam",
+                  "style": "",
+                  "title": "Swayam"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/raymond-home",
+                  "style": "",
+                  "title": "Raymond Home"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/maspar",
+                  "style": "",
+                  "title": "Maspar"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/corelle",
+                  "style": "",
+                  "title": "Corelle"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/trident",
+                  "style": "",
+                  "title": "Trident"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/cortina",
+                  "style": "",
+                  "title": "Cortina"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/story-at-home",
+                  "style": "",
+                  "title": "Story@Home"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/random",
+                  "style": "",
+                  "title": "Random"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/home-furnishing-menu?f=Brand%3Aellementry&plaEnabled=false",
+                  "style": "",
+                  "title": "Ellementry"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/romee?sort=popularity",
+                  "style": "",
+                  "title": "ROMEE"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/sej-by-nisha-gupta",
+                  "style": "",
+                  "title": "SEJ by Nisha Gupta"
+                }
+              }
+            ],
+            "props": {
+              "url": "/home-furnishing",
+              "style": "",
+              "title": "Brands"
+            }
+          }
+        ],
+        "props": {
+          "url": "/shop/home-living",
+          "style": "",
+          "title": "Home & Living",
+          "meta": {
+            "dock": "true",
+            "template": "fashion",
+            "template_config": {
+              "position": 3,
+              "color": "#f2c210",
+              "icon": "http://myntra.myntassets.com/assets/premium/temp/Men.png"
+            }
+          }
+        }
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/lipstick",
+                  "style": "",
+                  "title": "Lipstick"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/lip-gloss",
+                  "style": "",
+                  "title": "Lip Gloss"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/lip-liner",
+                  "style": "",
+                  "title": "Lip Liner"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/mascara",
+                  "style": "",
+                  "title": "Mascara"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/eyeliner",
+                  "style": "",
+                  "title": "Eyeliner"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kajal",
+                  "style": "",
+                  "title": "Kajal"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/eyeshadow",
+                  "style": "",
+                  "title": "Eyeshadow"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/foundation",
+                  "style": "",
+                  "title": "Foundation"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/primer",
+                  "style": "",
+                  "title": "Primer"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/concealer",
+                  "style": "",
+                  "title": "Concealer"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/compact",
+                  "style": "",
+                  "title": "Compact"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/nail-polish",
+                  "style": "",
+                  "title": "Nail Polish"
+                }
+              }
+            ],
+            "props": {
+              "url": "/makeup",
+              "style": "",
+              "title": "Makeup"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/face-moisturisers",
+                  "style": "",
+                  "title": "Face Moisturiser"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/cleanser",
+                  "style": "",
+                  "title": "Cleanser"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/mask-and-peel",
+                  "style": "",
+                  "title": "Masks & Peel"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/sunscreen",
+                  "style": "",
+                  "title": "Sunscreen"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/serum",
+                  "style": "",
+                  "title": "Serum"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/face-wash",
+                  "style": "",
+                  "title": "Face Wash"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/eye-cream",
+                  "style": "",
+                  "title": "Eye Cream"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/lip-balm",
+                  "style": "",
+                  "title": "Lip Balm"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/body-lotion",
+                  "style": "",
+                  "title": "Body Lotion "
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/body-wash",
+                  "style": "",
+                  "title": "Body Wash"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/body-scrub",
+                  "style": "",
+                  "title": " Body Scrub"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hand-cream",
+                  "style": "",
+                  "title": "Hand Cream "
+                }
+              }
+            ],
+            "props": {
+              "url": "/beauty-page-skincare-bath-body",
+              "style": "",
+              "title": "Skincare, Bath & Body"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/baby-care",
+              "style": "",
+              "title": "Baby Care"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/mask",
+              "style": "",
+              "title": "Masks"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/shampoo",
+                  "style": "",
+                  "title": "Shampoo"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-conditioner",
+                  "style": "",
+                  "title": "Conditioner"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-cream",
+                  "style": "",
+                  "title": "Hair Cream"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-oil",
+                  "style": "",
+                  "title": "Hair Oil"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-gel",
+                  "style": "",
+                  "title": "Hair Gel"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-colour",
+                  "style": "",
+                  "title": "Hair Color"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-serum",
+                  "style": "",
+                  "title": "Hair Serum"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-accessory",
+                  "style": "",
+                  "title": "Hair Accessory"
+                }
+              }
+            ],
+            "props": {
+              "url": "/hair-care",
+              "style": "",
+              "title": "Haircare"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/perfumes",
+                  "style": "",
+                  "title": "Perfume"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/deodorant",
+                  "style": "",
+                  "title": "Deodorant"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/body-mist",
+                  "style": "",
+                  "title": "Body Mist"
+                }
+              }
+            ],
+            "props": {
+              "url": "/fragrance",
+              "style": "",
+              "title": "Fragrances"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-straightener",
+                  "style": "",
+                  "title": "Hair Straightener"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-dryer",
+                  "style": "",
+                  "title": "Hair Dryer"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/epilator",
+                  "style": "",
+                  "title": "Epilator"
+                }
+              }
+            ],
+            "props": {
+              "url": "/beauty-page-appliances",
+              "style": "",
+              "title": "Appliances"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/trimmer",
+                  "style": "",
+                  "title": "Trimmers"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/beard-oil",
+                  "style": "",
+                  "title": "Beard Oil"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/hair-wax",
+                  "style": "",
+                  "title": "Hair Wax"
+                }
+              }
+            ],
+            "props": {
+              "url": "/grooming",
+              "style": "",
+              "title": "Men's Grooming"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/beauty-gift-set",
+                  "style": "",
+                  "title": "Beauty Gift"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/makeup-kit",
+                  "style": "",
+                  "title": "Makeup Kit"
+                }
+              }
+            ],
+            "props": {
+              "url": "/beauty-gift-set",
+              "style": "",
+              "title": "Beauty Gift & Makeup Set"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/beauty-page-premium",
+              "style": "",
+              "title": "Premium Beauty"
+            }
+          },
+          {
+            "children": [],
+            "props": {
+              "url": "/personal-hygiene",
+              "style": "",
+              "title": "Wellness & Hygiene"
+            }
+          },
+          {
+            "children": [
+              {
+                "children": [],
+                "props": {
+                  "url": "/lakme",
+                  "style": "",
+                  "title": "Lakme"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/maybelline",
+                  "style": "",
+                  "title": "Maybelline"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/loreal",
+                  "style": "",
+                  "title": "LOreal"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/philips",
+                  "style": "",
+                  "title": "Philips"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/bath-and-body-works",
+                  "style": "",
+                  "title": "Bath & Body Works"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/the-body-shop",
+                  "style": "",
+                  "title": "THE BODY SHOP"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/biotique",
+                  "style": "",
+                  "title": "Biotique"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/mamaearth",
+                  "style": "",
+                  "title": "Mamaearth"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/mcaffeine",
+                  "style": "",
+                  "title": "MCaffeine"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/nivea",
+                  "style": "",
+                  "title": "Nivea"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/lotus-herbals",
+                  "style": "",
+                  "title": "Lotus Herbals"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/loreal-professionnel",
+                  "style": "",
+                  "title": "LOreal Professionnel"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/kama-ayurveda",
+                  "style": "",
+                  "title": "KAMA AYURVEDA"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/m.a.c",
+                  "style": "",
+                  "title": "M.A.C"
+                }
+              },
+              {
+                "children": [],
+                "props": {
+                  "url": "/forest-essentials",
+                  "style": "",
+                  "title": "Forest Essentials"
+                }
+              }
+            ],
+            "props": {
+              "url": "/personal-care",
+              "style": "",
+              "title": "Top Brands"
+            }
+          }
+        ],
+        "props": {
+          "url": "/personal-care",
+          "style": "",
+          "title": "Beauty",
+          "meta": {
+            "dock": "true",
+            "template": "fashion",
+            "template_config": {
+              "position": 3,
+              "color": "#0db7af",
+              "icon": "http://myntra.myntassets.com/assets/premium/temp/Men.png"
+            }
+          }
+        }
+      },
+      {
+        "props": {
+          "url": "/studio/home",
+          "style": "new",
+          "title": "Studio",
+          "usedTemplate": "studio",
+          "templateData": {
+            "studioLogo": "https://constant.myntassets.com/web/assets/img/studio-logo-new.svg",
+            "YourDailyInspirationText": "Your daily inspiration for everything fashion",
+            "exploreStudioText": "EXPLORE STUDIO",
+            "studioNavBanner": "https://constant.myntassets.com/web/assets/img/sudio-nav-banner.png",
+            "chevronRight": "https://constant.myntassets.com/web/assets/img/chevron-right.svg"
+          },
+          "meta": {
+            "dock": "true",
+            "template": "fashion",
+            "template_config": {
+              "position": 3,
+              "color": "#ff3f6c",
+              "icon": "http://myntra.myntassets.com/assets/premium/temp/Men.png"
+            }
+          }
+        }
+      }
+]}

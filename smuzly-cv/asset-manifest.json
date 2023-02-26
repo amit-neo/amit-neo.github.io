@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/smuzly-cv/static/css/main.5c85b70a.chunk.css",
+    "main.js": "/smuzly-cv/static/js/main.94b0f34a.chunk.js",
+    "main.js.map": "/smuzly-cv/static/js/main.94b0f34a.chunk.js.map",
+    "runtime-main.js": "/smuzly-cv/static/js/runtime-main.516eae35.js",
+    "runtime-main.js.map": "/smuzly-cv/static/js/runtime-main.516eae35.js.map",
+    "static/css/2.397aade6.chunk.css": "/smuzly-cv/static/css/2.397aade6.chunk.css",
+    "static/js/2.20002d4a.chunk.js": "/smuzly-cv/static/js/2.20002d4a.chunk.js",
+    "static/js/2.20002d4a.chunk.js.map": "/smuzly-cv/static/js/2.20002d4a.chunk.js.map",
+    "index.html": "/smuzly-cv/index.html",
+    "static/css/2.397aade6.chunk.css.map": "/smuzly-cv/static/css/2.397aade6.chunk.css.map",
+    "static/css/main.5c85b70a.chunk.css.map": "/smuzly-cv/static/css/main.5c85b70a.chunk.css.map",
+    "static/js/2.20002d4a.chunk.js.LICENSE.txt": "/smuzly-cv/static/js/2.20002d4a.chunk.js.LICENSE.txt",
+    "static/media/RegistrationLayout.css": "/smuzly-cv/static/media/Group459.1d90dd51.svg",
+    "static/media/flag-icon.min.css": "/smuzly-cv/static/media/zw.f5ceeff7.svg",
+    "static/media/getFetch.cjs": "/smuzly-cv/static/media/getFetch.d7d6010d.cjs",
+    "static/media/components.css": "/smuzly-cv/static/media/roundpic.8b380a05.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.516eae35.js",
+    "static/css/2.397aade6.chunk.css",
+    "static/js/2.20002d4a.chunk.js",
+    "static/css/main.5c85b70a.chunk.css",
+    "static/js/main.94b0f34a.chunk.js"
+  ]
+}

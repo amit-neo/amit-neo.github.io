@@ -1,0 +1,211 @@
+{
+  "succ": true,
+  "public_msg": "",
+  "product": {
+    "product_id": 57,
+    "type": "simple",
+    "sku": "TBS001",
+    "catalog_visibility": 1,
+    "price_unit": null,
+    "is_out_of_stock": false,
+    "tax_enabled": 1,
+    "weight": 150,
+    "weight_unit": "g",
+    "length": 30,
+    "width": 45,
+    "height": 56,
+    "dim_unit": "cm",
+    "purchase_note": "This is purchase note for our customers",
+    "images": [
+      {
+        "id": 823,
+        "public_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/07/7B54I0u1LeYmYdrcYyOxDiUgr2.jpg",
+        "thumbnail_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/07/ksRKKBWTWqvyii6UlDv8CvTJF2_300x300.jpg"
+      },
+      {
+        "id": "869",
+        "public_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/Rz51B049DIqcREQI4FCVGnXcK4.jpg",
+        "thumbnail_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/6knSXnTWh3Lkgrx5OHxFQL7Wc4_300x300.jpg"
+      },
+      {
+        "id": "870",
+        "public_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/WGGM9W0TBUxIXBZI9cEtGv5oF5.jpg",
+        "thumbnail_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/U7GDAyzA18SoTIhCrgx6T8Exi5_300x300.jpg"
+      },
+      {
+        "id": "871",
+        "public_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/SqhjoriJ15ACGvPjB2C72Lrcc6.jpg",
+        "thumbnail_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/bLeQVkPAPC9L38dlpKkUX1q8j6_300x300.jpg"
+      },
+      {
+        "id": "872",
+        "public_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/WhOuj4bJqkOGtylYI2JyYOeKx7.jpg",
+        "thumbnail_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/08/HJ9S6vhur5eCE5wYVGzn0DmLK7_300x300.jpg"
+      }
+    ],
+    "stock_manage": 1,
+    "stock_quantity": 85,
+    "stock_settings": {
+      "allow_backorders": "1",
+      "show_out_of_stock": "1",
+      "show_stock_items": "0",
+      "in_stock_msg": null,
+      "out_of_stock_msg": null
+    },
+    "sold_individually": 0,
+    "review": {
+      "allowed": "1",
+      "review_count": "298",
+      "avg_rating": "4.9"
+    },
+    "attributes": [],
+    "default_attributes": [],
+    "meta_data": {
+      "curr_wise_sales": "true"
+    },
+    "entity": {
+      "id": 1153,
+      "title": "Chocolate Face Mask | Tan Removal, Pore Tightening & Skin Brightening Face Mask for Glowing Skin \u2013 100 GM",
+      "slug": "chocolate-face-mask",
+      "fullURL": "https://www.thebeautysailor.com/product/chocolate-face-mask",
+      "short_desc": "Who said chocolate could only curb your hunger cravings? With this new Chocolate Face Mask by The Beauty Sailor, hear the unheard wishes of your skin. Give this mask to feed your skin with love and nourishment of caramel and caffeine. Cocoa seeds, the raw materials used in making chocolate, are very high in antioxidants. These antioxidants further prevent the premature breakdown of skin cells. There are also flavanols present in the composition of this mask that help to defend the skin against harmful exposure to UV radiation. The hydrating facial mask for glowing skin enhances the elasticity. It reduces various signs of aging, such as fine lines, wrinkles, and scars appearance. The face mask has a soothing aroma of cocoa that calms not just the skin but also you.",
+      "featured_img": {
+        "id": 823,
+        "alt_text": "2",
+        "title": "2",
+        "caption": null,
+        "public_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/07/7B54I0u1LeYmYdrcYyOxDiUgr2.jpg",
+        "thumbnail_url": "https://d1t7245rixfc96.cloudfront.net/mm/2021/07/ksRKKBWTWqvyii6UlDv8CvTJF2_300x300.jpg"
+      },
+      "meta_data": {
+        "page_container": "container",
+        "show_breadcrumb": null,
+        "mpLinks": {
+          "flipkart": "https://www.flipkart.com/beauty-sailor-chocolate-face-mask-vitamin-c-e/p/itm8dee1d99b7702?pid=FCPFZ96NXBVFFXVG&lid=LSTFCPFZ96NXBVFFXVGGT5VSU&marketplace=FLIPKART&srno=s_1_10&otracker=search&fm=organic&iid=85231848-776c-434a-916e-db29feca9a55.FCPFZ96NXBVFFXVG.SEARCH&ppt=browse&ppn=browse&qH=1ab6e0ccbf7da129",
+          "amazon": "https://www.amazon.in/Beauty-Sailor-Chocolate-Caffeine-Sulphate/dp/B08SKB5B8B?ref_=ast_sto_dp",
+          "snapdeal": "https://www.snapdeal.com/product/the-beauty-sailor-chocolate-with/672610818552#bcrumbSearch:the%20beauty%20sailor|bcrumbLabelId:46105196",
+          "shopclues": "https://the-beauty-sailor.shopclues.com/the-beauty-sailor-chocolate-face-mask-100-gm-151855539.html",
+          "paytm": "https://paytmmall.com/the-beauty-sailor-chocolate-face-mask-100-g-FASTHE-BEAUTY-SABBE11718212C8D74F8-pdp?sid=2b7e446d-9dac-434f-aaff-87c3bc0b1d8e&merchant_id=1171821&src=consumer_search&svc=1&cid=101415&tracker=%7C%7C%7C%7Cnull%7C%7C5%7C%7C%7C%7C&get_review_id=334742619",
+          "limeroad": "https://www.limeroad.com/natural-caramel-caffeine-vitamin-e-the-beauty-sailor-p17585099?imgIdx=3&src_id=searchTrendingRail__0",
+          "myntra": "https://www.myntra.com/mask-and-peel/the-beauty-sailor/the-beauty-sailor-chocolate-face-mask-with-caffeine-caramel--vitamin-e-100-gm/14294074/buy",
+          "firstcry": "https://www.firstcry.com/the-beauty-sailor/the-beauty-sailor-chocolate-face-mask-with-caffeine-caramel-and-vitamin-e-for-all-skin-types-100-gm/9188026/product-detail",
+          "onemg": "https://www.1mg.com/otc/the-beauty-sailor-chocolate-face-mask-otc647327",
+          "purplle": "https://www.purplle.com/product/the-beauty-sailor-chocolate-face-mask-with-caffeine-caramel-and-vitamin-e-for-all-skin-types-no-paraben-no-sulphate-100-g",
+          "nykaa": "https://www.nykaa.com/the-beauty-sailor-chocolate-face-mask-for-tan-removal/p/2790773?productId=2790773&pps=2",
+          "meesho": "https://meesho.com/the-beauty-sailor---chocolate-face-mask--tan-removal-blackhead-removal-hydrating-pore-tightening-skin-brightening-and-whitening-sensational-hydrating-face-masks-packs--peels/p/wyi1y",
+          "shopee": "https://shopee.in/The-Beauty-Sailor-Chocolate-Face-Mask-with-vitamin-C-E-(100-g)-i.553412351.11857408462?sp_atk=efea1cc0-9947-4480-b798-89cb729fd55d"
+        },
+        "mpLinksSort": {
+          "amazon": "1",
+          "flipkart": "5",
+          "myntra": "3",
+          "firstcry": "6",
+          "snapdeal": "9",
+          "shopclues": "6",
+          "paytm": "7",
+          "onemg": "8",
+          "limeroad": "9",
+          "purplle": "4",
+          "nykaa": "2",
+          "meesho": "6",
+          "shopee": "6"
+        }
+      }
+    },
+    "price": {
+      "curr": "inr",
+      "curr_info": {
+        "default_curr": true,
+        "curr_value": 1,
+        "prefix": "₹9",
+        "suffix": "/-",
+        "decimals": 2
+      },
+      "is_on_sale": true,
+      "regular": 1249,
+      "isTaxIncluded": true,
+      "sale": 886,
+      "min": 0,
+      "max": 0,
+      "off": "29% Off"
+    },
+    "loyalty": {
+      "points": 886,
+      "amount": "₹988.60/-"
+    },
+    "relations": [
+      {
+        "id": "p_cats",
+        "product_id": 57,
+        "entity": {
+          "id": 489,
+          "title": "Face Mask",
+          "fullURL": "https://www.thebeautysailor.com/product-category/face-mask"
+        }
+      },
+      {
+        "id": "p_cats",
+        "product_id": 57,
+        "entity": {
+          "id": 493,
+          "title": "All Products",
+          "fullURL": "https://www.thebeautysailor.com/product-category/all"
+        }
+      },
+      {
+        "id": "p_cats",
+        "product_id": 57,
+        "entity": {
+          "id": 1144,
+          "title": "Featured",
+          "fullURL": "https://www.thebeautysailor.com/product-category/featured"
+        }
+      },
+      {
+        "id": "p_cats",
+        "product_id": 57,
+        "entity": {
+          "id": 1145,
+          "title": "Face Serum",
+          "fullURL": "https://www.thebeautysailor.com/product-category/face-serum"
+        }
+      },
+      {
+        "id": "p_tags",
+        "product_id": 57,
+        "entity": {
+          "id": 1146,
+          "title": "Face",
+          "fullURL": "https://www.thebeautysailor.com/product-tags/face"
+        }
+      },
+      {
+        "id": "p_tags",
+        "product_id": 57,
+        "entity": {
+          "id": 1147,
+          "title": "Face Mask",
+          "fullURL": "https://www.thebeautysailor.com/product-tags/face-mask"
+        }
+      },
+      {
+        "id": "p_tags",
+        "product_id": 57,
+        "entity": {
+          "id": 1148,
+          "title": "Skin Masks",
+          "fullURL": "https://www.thebeautysailor.com/product-tags/skin-masks"
+        }
+      },
+      {
+        "id": "p_cats",
+        "product_id": 57,
+        "entity": {
+          "id": 1258,
+          "title": "Face Care",
+          "fullURL": "https://www.thebeautysailor.com/product-category/face-care"
+        }
+      }
+    ]
+  }
+}

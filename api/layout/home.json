@@ -1,0 +1,113 @@
+{
+  "succ": true,
+  "status_code": 200,
+  "public_msg": "",
+  "data": [
+    {
+      "section_id": "category01",
+      "section_layout": "ticker_slider",
+      "section_config": {
+        "slide_per_view": 4.5
+      },
+      "section_data": [
+        {
+          "id": 45,
+          "name": "winter wear",
+          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "action_type": "search",
+          "filter": [
+            {
+              "cat_id": 45
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "MEN",
+          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "action_type": "open_page",
+          "filter": []
+        },
+        {
+          "id": 15,
+          "name": "MEN",
+          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "action_type": "external_link",
+          "filter": {
+            "link": "https://"
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "home_slider01",
+      "section_layout": "banner_slider",
+      "section_config": {
+        "slide_per_view": 1
+      },
+      "section_data": [
+        {
+          "id": 45,
+          "thumb": "https://kumaranup594.github.io/api/assets/banner_1.jpeg",
+          "action_type": "search",
+          "filter": [
+            {
+              "brand": "sonata",
+              "gender": "men"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "thumb": "https://kumaranup594.github.io/api/assets/banner_1.jpeg",
+          "action_type": "open_page",
+          "filter": []
+        },
+        {
+          "id": 15,
+          "thumb": "https://kumaranup594.github.io/api/assets/banner_1.jpeg",
+          "action_type": "external_link",
+          "filter": {
+            "link": "https://kumaranup594.github.io"
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "category02",
+      "section_layout": "ticker_slider",
+      "section_config": {
+        "slide_per_view": 2.5
+      },
+      "section_data": [
+        {
+          "id": 45,
+          "name": "winter wear",
+          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "action_type": "search",
+          "filter": [
+            {
+              "cat_id": 45
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "MEN",
+          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "action_type": "open_page",
+          "filter": []
+        },
+        {
+          "id": 15,
+          "name": "MEN",
+          "thumb": "https://kumaranup594.github.io/api/assets/winterwear.jpeg",
+          "action_type": "external_link",
+          "filter": {
+            "link": "https://"
+          }
+        }
+      ]
+    }
+  ]
+}
