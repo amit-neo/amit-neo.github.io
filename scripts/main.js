@@ -1,9 +1,26 @@
 // -------------------------------------
 // vue app
 // -------------------------------------
+
+// import Email from "../assets/smtp/smtp"
+ 
+const sendEmail = (data) => {
+  Email.send({
+    SecureToken: "40c0c24a-1422-408a-b2b2-d9bcbc909370",
+    To: "amit.aaryan480@gmail.com",
+    From: "amit.aaryan480@gmail.com",
+    Subject: 'New Enquiry',
+    Body: data
+  }).then((message) => alert('Form Submitted Successfully!'));
+  return true
+}
+
 const app = Vue.createApp({
+  
   data() {
+
     return {
+      
       // the date my career started (change to yours)
       careerStartDate: 2020,
 
@@ -791,7 +808,13 @@ const app = Vue.createApp({
         message.classList.remove('invalid');
         message.classList.add('valid');
       }
-
+      var dataArray = $("form.contact-form").serializeArray(),
+      dataObj = {};
+      $(dataArray).each(function(index, field){
+        dataObj[field.name] = field.value;
+      });
+      sendEmail(dataObj);
+      return;
       // send the message if the form is valid
       (!Object.values(errors).some(control => Object.values(control).some(Boolean))) && this.sendContactFormMessage(contactForm);
     },
@@ -826,7 +849,6 @@ const app = Vue.createApp({
           // end loading spinner
           this.endLoading();
 
-          console.log(data);
         })
         .catch(err => console.log(err));
     },
