@@ -3,17 +3,25 @@
 // -------------------------------------
 
 // import Email from "../assets/smtp/smtp"
- 
+var submitted = false;
+
 const sendEmail = (data) => {
   Email.send({
     SecureToken: "40c0c24a-1422-408a-b2b2-d9bcbc909370",
     To: "amit.aaryan480@gmail.com",
     From: "amit.aaryan480@gmail.com",
     Subject: 'New Enquiry',
-    Body: data
-  }).then((message) => alert('Form Submitted Successfully!'));
-  return true
+    Body: "<b> Name:</b> " + data.name + 
+      "<br><b> Email:</b> " + data.email +
+      "<br><b> Phone:</b> " + data.phone +
+      "<br><b> Message:</b> " + data.message 
+  }).then((message) => (
+   alert('Your enquiry has been sent successfully! I will connect you shortly.')
+    
+   ));
+  return true 
 }
+console.log(submitted, 'Value After')
 
 const app = Vue.createApp({
   
@@ -187,23 +195,8 @@ const app = Vue.createApp({
             en: 'My primary role has been changed and I shifted to provide end to end complex solution e.g PHP based software & web apps.',
             ar: ''
           }
-        }, {
-          date: '2020',
-          companyName: { en: 'Loagil solution (A loagtics based company)', ar: '' },
-          jobTitle: { en: 'Chief Technical Officer (CTO)', ar: '' },
-          desc: {
-            en: 'My primary role here to build OMS & WMS software on Laravel & creating connectors on various platforms like wooCommerce, Shopify etc.',
-            ar: ''
-          }
-        }, {
-          date: '2021',
-          companyName: { en: 'StartAR Smarts Books', ar: '' },
-          jobTitle: { en: 'Chief Technical Officer (CTO)', ar: '' },
-          desc: {
-            en: 'Another product launched by NexGen Innovators. My role is to build scalable API for Unity AR frontend.',
-            ar: ''
-          }
-        }, {}, {}, {}
+        },
+        {}, {}, {}
       ],
 
       // filter type for items in portfolio section
