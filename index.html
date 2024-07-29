@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="styles/main.css" />
   <!-- ply additional css -->
   <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
+  <!-- notify css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
 </head>
 
 <body>
@@ -198,7 +200,7 @@
                     <img src="assets/images/icons/check-mark.png" alt="Completed Projects" />
                   </div>
                   <div class="text">
-                    <h3>60+</h3>
+                    <h3>40+</h3>
                     <strong>Completed Projects</strong>
                   </div>
                   <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -242,15 +244,15 @@
                   Full Stack Web Developer
                 </h2>
                 <p>
-                  I've been working as a PHP Full Stack Web Developer for the
-                  last 3 years, and I specialise in both frontend and backend
-                  development, especially for WordPress & Laravel. In total, I
-                  have worked on almost 200+ projects, including frontend &
+                  I've been working as a Full Stack Web Developer for the
+                  last 4 years, and I specialise in both frontend and backend
+                  development, especially for MEAN/MERN Stack & WordPress . In total, I
+                  have worked on almost 50+ projects, including frontend &
                   backend.
                 </p>
                 <p>
-                  In last 3 years. I have worked with 25+ openSource project,
-                  50+ marketing integrated, handled 100+ direct clients
+                  In last 4 years. I have worked with 20+ openSource project,
+                  10+ marketing integrated, handled 40+ direct clients
                   queries and provided them customised solution. So I can
                   deliver you solution beyond just development using master of
                   few and jack of all knowledge.
@@ -369,7 +371,7 @@
                 <p>
                   I have been developing sites and web apps from {{
                   experienceYears }} years and this amazing jounery given me
-                  experience of designing, development, teaching, marketing,
+                  experience of designing, development, teaching,
                   DevOps and be a good mentor for my fellows.
                 </p>
               </div>
@@ -400,7 +402,7 @@
                     interface helps any non-technical clients.
                   </p>
                   <ul class="works-filter">
-                    <li v-for="filter in ['All', 'HTML', 'Angular', 'Vue']" :key="filter">
+                    <li v-for="filter in ['All', 'HTML', 'Angular', 'React', 'Vue', 'WordPress']" :key="filter">
                       <button :class="{'active': worksFilter === filter.toLowerCase()}"
                         @click="worksFilter = filter.toLowerCase()">
                         {{ filter }}
@@ -426,9 +428,9 @@
               <!-- end items list -->
 
               <li>
-                <button class="more" @click="">
+                <!-- <button class="more" @click="">
                   <a href="#contact-form">Load more works</a>
-                </button>
+                </button> -->
               </li>
             </ul>
           </div>
@@ -545,7 +547,7 @@
 
             <!-- contact form -->
             <div class="col-lg-6" id="contact-form">
-              <form name="contact-form" ref="contactForm" class="contact-form form-styled"
+              <form name="contact-form" ref="contactForm" id="contactForm" class="contact-form form-styled"
                 action="" data-success-msg="Message sent successfully!"
                 data-err-msg="Oops! something went wrong, please try again.">
                 <div class="group">
@@ -607,9 +609,6 @@
                   </div>
                 </div>
               </form>
-              <div class="alert alert-success" v-if ="submitted ==='OK' || submitted">
-                Your enquiry has been sent successfully! I will connect you shortly.
-              </div>
             </div>
           </div>
         </div>
@@ -664,14 +663,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- js plugins file -->
   <script src="scripts/plugins.min.js"></script>
-
+    <!-- notif js cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
   <!-- main script file -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.9/plyr.min.js"
     integrity="sha512-Wt3CCBrK4mMw9PUEzDpKPMN7cLCq7/Uu7vxRtG+EQv+DO9Yae/LKSQTfziDj51y1yeSqqLt142lNyJtBXG/gSw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
   <script src="scripts/main.js"></script>
 </body>
 </body>
 
-</html>
+</html> 

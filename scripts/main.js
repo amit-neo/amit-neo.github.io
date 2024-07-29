@@ -1,27 +1,36 @@
 // -------------------------------------
 // vue app
 // -------------------------------------
-
-// import Email from "../assets/smtp/smtp"
 var submitted = false;
+// Create a new instance of Notyf
+const notyf = new Notyf();
+const serviceId = "service_f04f5fn";
+const templateId = "template_yyol1im";
+const publicKey = "Kgh9eGQ7a-T32rD4y";
 
 const sendEmail = (data) => {
-  Email.send({
-    SecureToken: "40c0c24a-1422-408a-b2b2-d9bcbc909370",
-    To: "amit.aaryan480@gmail.com",
-    From: "amit.aaryan480@gmail.com",
-    Subject: 'New Enquiry',
-    Body: "<b> Name:</b> " + data.name + 
-      "<br><b> Email:</b> " + data.email +
-      "<br><b> Phone:</b> " + data.phone +
-      "<br><b> Message:</b> " + data.message 
-  }).then((message) => (
-   alert('Your enquiry has been sent successfully! I will connect you shortly.')
-    
-   ));
-  return true 
+
+  const templateParams = {
+    from_name: data.name,
+    to_name: 'Amit',
+    subject: 'New Enquiry',
+    email: data.email,
+    phone: data.phone,
+    message: data.message,
+  };
+
+  emailjs.send(serviceId, templateId, templateParams, publicKey)
+  .then((response) => {
+    notyf.success('Your enquiry has been sent successfully! I will connect you shortly.');
+    document.getElementById('contactForm').reset();
+
+  }, (error) => {
+    console.error('FAILED...', error);
+    notyf.error('Failed to send enquiry. Please try again later.');
+  });
+  return true;
 }
-console.log(submitted, 'Value After')
+
 
 const app = Vue.createApp({
   
@@ -90,12 +99,25 @@ const app = Vue.createApp({
       // list of skills items to loop through it
       skillsItems: [
         {
+          imgUrl: 'assets/images/skills/angular.png',
+          title: 'Angular'
+        }, {
+          imgUrl: 'assets/images/skills/react.png',
+          title: 'React'
+        },
+        {
           imgUrl: 'assets/images/skills/html5.png',
           title: 'HTML5'
-        }, {
+        },
+        {
           imgUrl: 'assets/images/skills/css3.png',
-          title: 'CSS3'
-        }, {
+          title: 'CSS'
+        },
+        {
+          imgUrl: 'assets/images/skills/sass.png',
+          title: 'SASS'
+        },
+        {
           imgUrl: 'assets/images/skills/javascript.png',
           title: 'JavaScript'
         }, {
@@ -104,27 +126,29 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/skills/jquery.png',
           title: 'jQuery'
-        }, {
+        },{
+          imgUrl: 'assets/images/skills/nodejs.png',
+          title: 'Node JS'
+        },
+        {
           imgUrl: 'assets/images/skills/bootstrap.png',
           title: 'Bootstrap'
         }, {
-          imgUrl: 'assets/images/skills/angular.png',
-          title: 'Angular'
-        }, {
-          imgUrl: 'assets/images/skills/react.png',
-          title: 'React'
-        }, {
-          imgUrl: 'assets/images/skills/vue.png',
-          title: 'Vue'
+          imgUrl: 'assets/images/skills/mat-ui.png',
+          title: 'Material UI'
         }, {
           imgUrl: 'assets/images/skills/firebase.png',
           title: 'Firebase'
         }, {
-          imgUrl: 'assets/images/skills/pugjs.png',
-          title: 'PugJS'
+          imgUrl: 'assets/images/skills/wordpress.png',
+          title: 'Wordpress'
         }, {
-          imgUrl: 'assets/images/skills/sass.png',
-          title: 'SASS'
+          imgUrl: 'assets/images/skills/mysql.png',
+          title: 'MySQL'
+        },
+        {
+          imgUrl: 'assets/images/skills/mongoDB.jfif',
+          title: 'Mongo DB'
         }
       ],
 
@@ -134,17 +158,17 @@ const app = Vue.createApp({
           imgUrl: 'assets/images/skills/ajax.png',
           title: 'Ajax'
         }, {
-          imgUrl: 'assets/images/skills/gulp.png',
-          title: 'Gulp'
+          imgUrl: 'assets/images/skills/aws.webp',
+          title: 'AWS'
         }, {
-          imgUrl: 'assets/images/skills/webpack.png',
-          title: 'Webpack'
+          imgUrl: 'assets/images/skills/docker.png',
+          title: 'Docker'
         }, {
           imgUrl: 'assets/images/skills/git.png',
           title: 'Git (Github)'
         }, {
           imgUrl: 'assets/images/skills/npm.png',
-          title: 'Npm'
+          title: 'NPM'
         }, {
           imgUrl: 'assets/images/skills/command.png',
           title: 'Command Line'
@@ -152,8 +176,8 @@ const app = Vue.createApp({
           imgUrl: 'assets/images/skills/vs-code.png',
           title: 'VS Code'
         }, {
-          imgUrl: 'assets/images/skills/trello.png',
-          title: 'Trello'
+          imgUrl: 'assets/images/skills/postman.webp',
+          title: 'Postman'
         }, {
           imgUrl: 'assets/images/skills/clickup.png',
           title: 'ClickUp'
@@ -161,8 +185,8 @@ const app = Vue.createApp({
           imgUrl: 'assets/images/skills/slack.png',
           title: 'Slack'
         }, {
-          imgUrl: 'assets/images/skills/photoshop.png',
-          title: 'Photoshop'
+          imgUrl: 'assets/images/skills/figma.png',
+          title: 'Figma'
         }, {
           imgUrl: 'assets/images/skills/adobe-xd.png',
           title: 'Adobe XD'
@@ -176,7 +200,7 @@ const app = Vue.createApp({
           companyName: { en: 'NexGen Innovators', ar: '' },
           jobTitle: { en: 'Junior Web Developer', ar: '' },
           desc: {
-            en: 'My Primary goal was to manage eCommerce website & software based on CodeIgniter 2.x & 3.x & WordPress/WooCommerce Websites',
+            en: 'My Primary goal was to manage eCommerce website & software based on CodeIgniter, Laravel & WordPress/WooCommerce Websites',
             ar: ''
           }
         }, {
@@ -184,19 +208,27 @@ const app = Vue.createApp({
           companyName: { en: 'Digiware IT Solutions', ar: '' },
           jobTitle: { en: 'Web Developer', ar: '' },
           desc: {
-            en: 'My Primary goal was to develop and manage website & webApps for our clients',
+            en: 'My Primary goal was to develop and manage website & webApps for our clients based on Angular & Wordpress',
             ar: ''
           }
         }, {
           date: '2023',
-          companyName: { en: 'Fluper Limited', ar: '' },
-          jobTitle: { en: 'Angular Web Developer', ar: '' },
+          companyName: { en: 'Bulk Buy India', ar: '' },
+          jobTitle: { en: 'Angular Developer', ar: '' },
           desc: {
-            en: 'My primary role has been changed and I shifted to provide end to end complex solution e.g PHP based software & web apps.',
+            en: 'My primary role has been changed and I shifted to provide end to end complex solution on Angular based e-commerce website & web apps.',
             ar: ''
           }
         },
-        {}, {}, {}
+        {
+          date: '2024',
+          companyName: { en: 'Motherson Technology Services Limited', ar: '' },
+          jobTitle: { en: 'Software Engineer', ar: '' },
+          desc: {
+            en: 'My primary role was to provide end to end complex solution on Angular based web apps & web tools to automate various process, like Payroll, Expense and approval management system.',
+            ar: ''
+          }
+        }, {}, {}
       ],
 
       // filter type for items in portfolio section
@@ -204,50 +236,63 @@ const app = Vue.createApp({
 
       // list of portfolio items to loop through it
       allPortfolioItems: [
-        {
-          url: 'https://mekosha.com/',
+         {
+          url: 'https://starsnew.mindeservices.com',
           imgUrl: 'assets/images/portfolio/portfolio-1.png',
-          title: { en: 'Mekosha', ar: '' },
-          desc: { en: 'April 2018', ar: '' },
-          category: { slug: 'wordpress', name: 'Wordpress' }
-        }, {
-          url: 'https://www.giggsmeat.com/',
+          title: { en: 'STARS', ar: '' },
+          desc: { en: 'June 2024', ar: '' },
+          category: { slug: 'angular', name: 'Angular' }
+        },
+        {
+          url: 'https://bulkbuyindia.com',
           imgUrl: 'assets/images/portfolio/portfolio-2.png',
-          title: { en: 'Giggsmeat', ar: '' },
-          desc: { en: 'May 2019', ar: '' },
-          category: { slug: 'wordpress', name: 'Wordpress' }
-        }, {
-          url: 'https://www.fitnesscravers.com/',
+          title: { en: 'Bulk Buy India', ar: '' },
+          desc: { en: 'April 2023', ar: '' },
+          category: { slug: 'angular', name: 'Angular' }
+        },
+       {
+          url: 'https://restaurants.theplace.com.ng/userpanel/home',
           imgUrl: 'assets/images/portfolio/portfolio-3.png',
-          title: { en: 'Fitness Cravers', ar: '' },
-          desc: { en: 'June 2018', ar: '' },
-          category: { slug: 'wordpress', name: 'Wordpress' }
-        }, {
-          url: 'https://honeywellconnection.com/',
+          title: { en: 'The Place', ar: '' },
+          desc: { en: 'November 2022', ar: '' },
+          category: { slug: 'angular', name: 'Angular' }
+        },
+        {
+          url: 'https://justbook-app.com',
           imgUrl: 'assets/images/portfolio/portfolio-4.png',
-          title: { en: 'Honeywell Connection', ar: '' },
-          desc: { en: 'March 2019', ar: '' },
-          category: { slug: 'wordpress', name: 'Wordpress' }
-        }, {
-          url: 'https://www.kcsshop.in/',
+          title: { en: 'Just Book', ar: '' },
+          desc: { en: 'September 2022', ar: '' },
+          category: { slug: 'angular', name: 'Angular' }
+        },
+        {
+          url: 'https://digiwareitsolution.com',
           imgUrl: 'assets/images/portfolio/portfolio-5.png',
-          title: { en: 'KCS Kashmir Shawl Emporium', ar: '' },
-          desc: { en: 'June 2018', ar: '' },
+          title: { en: 'Digiware', ar: '' },
+          desc: { en: 'February 2022', ar: '' },
           category: { slug: 'wordpress', name: 'Wordpress' }
-        }, {
-          url: 'https://couturiershome.com/',
+        },
+        {
+          url: 'https://www.fitnesscravers.com/',
           imgUrl: 'assets/images/portfolio/portfolio-6.png',
-          title: { en: 'Couturiers Home', ar: '' },
-          desc: { en: 'August 2019', ar: '' },
+          title: { en: 'Fitness Cravers', ar: '' },
+          desc: { en: 'May 2021', ar: '' },
           category: { slug: 'wordpress', name: 'Wordpress' }
-        }, {
-          url: 'https://www.auntfloh.com/',
-          imgUrl: 'assets/images/portfolio/portfolio-7.png',
-          title: { en: 'AuntFloh', ar: '' },
-          desc: { en: 'January 2020', ar: '' },
-          category: { slug: 'laravel', name: 'Laravel' }
-        }
-      ].reverse(),
+        },
+        // {
+        //   url: 'https://mekosha.com',
+        //   imgUrl: 'assets/images/portfolio/portfolio-7.png',
+        //   title: { en: 'Mekosha', ar: '' },
+        //   desc: { en: 'February 2021', ar: '' },
+        //   category: { slug: 'wordpress', name: 'Wordpress' }
+        // },
+        {
+          url: 'https://www.kcsshop.in/',
+          imgUrl: 'assets/images/portfolio/portfolio-8.png',
+          title: { en: 'KCS Kashmir Shawl Emporium', ar: '' },
+          desc: { en: 'November 2020', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
+        },
+      ],
 
       // current page of portfolio items
       portfolioItemsPage: 0,
@@ -353,54 +398,6 @@ const app = Vue.createApp({
           },
           quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
           jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-13.jpg',
-          quoteContent: {
-            en: 'Amit simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
-          },
-          quoteAuthor: { en: 'Tabitha Denesik', ar: 'آسر بنسلامة' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-14.jpg',
-          quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-          },
-          quoteAuthor: { en: 'Javon Bogan', ar: 'صهيب الشريف' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-15.jpg',
-          quoteContent: {
-            en: 'Amit is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-          },
-          quoteAuthor: { en: 'Duncan Kemmer', ar: 'سيد كرم' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-16.jpg',
-          quoteContent: {
-            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-          },
-          quoteAuthor: { en: 'Coy Johns', ar: 'هيثم الشريف' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-17.jpg',
-          quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-          },
-          quoteAuthor: { en: 'Murphy Roberts', ar: 'إسلام مصطفى' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
-        }, {
-          imgUrl: 'assets/images/testimonials/testimonials-18.jpg',
-          quoteContent: {
-            en: 'Amit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-          },
-          quoteAuthor: { en: 'Dimitri Lockman', ar: 'وسيم السقا' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
         }
       ]
     }
@@ -442,7 +439,7 @@ const app = Vue.createApp({
       });
     });
   },
-  methods: {
+  methods: {  
     // initialize circle cursor
     initCircleCursor() {
       const app = this.$refs.appRef;
