@@ -3939,6 +3939,13 @@ html[dir="ltr"] .hero-section .hero-text h2 {
   }
 }
 
+@media (max-width: 768px) {
+  .about-me-btn {
+    margin-bottom: 12px;
+    margin-left: 5px;
+  }
+}
+
 .hero-section .social.social:before,
 .hero-section .social.scroll-down:after,
 .hero-section .scroll-down.social:before,
