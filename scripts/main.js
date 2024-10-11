@@ -305,99 +305,100 @@ const app = Vue.createApp({
         {
           imgUrl: 'assets/images/testimonials/testimonials-1.jpg',
           quoteContent: {
-            en: 'Amit simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Amit to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
+            en: 'Amit took our outdated website and gave it new life! His creativity and coding skills brought our ideas to life with a fresh design.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Terrell Grimes', ar: 'جابر العواني' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
+          quoteAuthor: { en: 'Abhishek Agarwal', ar: '' },
+          jobTitle: { en: 'E-commerce Seller', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Amit is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
+            en: 'From start to finish, Amit was professional and responsive. He developed a website that perfectly reflects our brand and vision.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Lonny Corkery', ar: 'حسون القلال' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
+          quoteAuthor: { en: 'Dharmendra Dhakad', ar: '' },
+          jobTitle: { en: 'Founder: Duxido', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
           quoteContent: {
-            en: 'Amit team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
+            en: 'Amit is a highly skilled developer who understood our needs and created a functional, beautiful site that boosted our online presence.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Max Schmidt DDS', ar: 'مصطفى الخليفي' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
+          quoteAuthor: { en: 'Arjun Singh', ar: '' },
+          jobTitle: { en: 'Founder: STS GRoup', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
           quoteContent: {
-            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
+            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. He is dedicated, talented and a delight to work with. Highly recommended!',
+            ar: ''
           },
-          quoteAuthor: { en: 'Amir Stoltenberg', ar: 'عباس العنابي' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
+          quoteAuthor: { en: 'Alwin John', ar: '' },
+          jobTitle: { en: 'Founder: GNext', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
           quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
+            en: 'Amit is an exceptional web developer. He understood our requirements quickly and delivered a stunning website within our budget.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Kenton Marquardt', ar: 'سمير النجار' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
+          quoteAuthor: { en: 'Vijay K Sahu', ar: '' },
+          jobTitle: { en: 'Founder: Shayama Industries', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
           quoteContent: {
-            en: 'Amit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
+            en: 'Amit`s web development skills transformed our site. The process was smooth, and the result exceeded our expectations. Highly recommended!',
+            ar: ''
           },
-          quoteAuthor: { en: 'Reyna Hammes', ar: 'أمير داوود' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
+          quoteAuthor: { en: 'Rohit Kasera', ar: '' },
+          jobTitle: { en: 'E-commerce Seller', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
           quoteContent: {
             en: 'Amit was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-            ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
+            ar: ''
           },
-          quoteAuthor: { en: 'Jovan Parisian', ar: 'منصور السقاط' },
-          jobTitle: { en: 'Motion Graphic Animator', ar: 'مصمم موشن جرافيك' }
-        }, {
+          quoteAuthor: { en: 'Ganesh Sudagar', ar: '' },
+          jobTitle: { en: 'UI/UX Designer', ar: '' }
+        },
+        {
           imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
           quoteContent: {
-            en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-            ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
+            en: 'Incredible attention to details and quick turnaround! Amit delivered a sleek, responsive website that works perfectly across all devices.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Pasquale Deckow', ar: 'عطا بن عاشور' },
-          jobTitle: { en: 'Art Director', ar: 'آرت دايركتور' }
+          quoteAuthor: { en: 'Rohit Sharma', ar: '' },
+          jobTitle: { en: 'E-commerce Seller', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
           quoteContent: {
-            en: 'Amit worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-            ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
+            en: 'Amit was fantastic to work with! He created a professional, high-performing website that meets all our business needs perfectly.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Rosa Ferry', ar: 'نافع حاتم' },
-          jobTitle: { en: 'Sales Manager', ar: 'مدير مبيعات' }
+          quoteAuthor: { en: 'Anup Kumar', ar: '' },
+          jobTitle: { en: 'Co-Founder: Digital Agency', ar: '' }
         }, {
-          imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
+          imgUrl: 'assets/images/testimonials/testimonials-10.jpeg',
           quoteContent: {
-            en: 'Amit team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-            ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
+            en: 'Amit`s attention to detail in translating my designs into code was impressive. His ability to maintain the integrity of the UI/UX while ensuring smooth functionality made the collaboration easy and successful.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Keshaun Robel', ar: 'صدقي الطويل' },
-          jobTitle: { en: 'CEO, Designer', ar: 'أخصائي SEO' }
+          quoteAuthor: { en: 'Tushar Saini', ar: '' },
+          jobTitle: { en: 'UI/UX Designer', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
           quoteContent: {
-            en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-            ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
+            en: 'Our website was delivered on time and beyond our expectations. Amit`s ability to balance creativity with functionality is remarkable.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Casper Paucek', ar: 'حسان ادريس' },
-          jobTitle: { en: 'Project Manager', ar: 'مدير المشاريع' }
+          quoteAuthor: { en: 'Anubhav Agarwal', ar: '' },
+          jobTitle: { en: 'E-Commerce Seller', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
           quoteContent: {
-            en: 'Amit simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-            ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
+            en: 'Amit`s technical expertise and design skills are outstanding. Our new website is fast, modern, and has received great feedback from customers.',
+            ar: ''
           },
-          quoteAuthor: { en: 'Archibald Fadel', ar: 'مجد الكافي' },
-          jobTitle: { en: 'Photographer', ar: 'مصور فوتوغرافي' }
+          quoteAuthor: { en: 'Amol', ar: '' },
+          jobTitle: { en: 'UI/UX Designer', ar: '' }
         }
       ]
     }
