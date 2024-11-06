@@ -278,18 +278,18 @@ const app = Vue.createApp({
           desc: { en: 'May 2021', ar: '' },
           category: { slug: 'wordpress', name: 'Wordpress' }
         },
-        // {
-        //   url: 'https://mekosha.com',
-        //   imgUrl: 'assets/images/portfolio/portfolio-7.png',
-        //   title: { en: 'Mekosha', ar: '' },
-        //   desc: { en: 'February 2021', ar: '' },
-        //   category: { slug: 'wordpress', name: 'Wordpress' }
-        // },
         {
           url: 'https://www.kcsshop.in/',
           imgUrl: 'assets/images/portfolio/portfolio-8.png',
           title: { en: 'KCS Kashmir Shawl Emporium', ar: '' },
           desc: { en: 'November 2020', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
+        },
+        {
+          url: 'https://careability.co.in',
+          imgUrl: 'assets/images/portfolio/portfolio-9.png',
+          title: { en: 'CareAbility', ar: '' },
+          desc: { en: 'January 2021', ar: '' },
           category: { slug: 'wordpress', name: 'Wordpress' }
         },
       ],
@@ -621,7 +621,7 @@ const app = Vue.createApp({
 
     // get portfolio items
     getPortfolioItems() {
-      const size = 7;
+      const size = 8;
 
       // check if there is more works or not
       if ((this.portfolioItemsPage - 1) * size + size < this.allPortfolioItems.length) {
@@ -643,7 +643,7 @@ const app = Vue.createApp({
         });
       }
     },
-
+    
     // contact form validation
     contactFormValidation() {
 
