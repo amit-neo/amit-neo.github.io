@@ -20,24 +20,24 @@ const sendEmail = (data) => {
   };
 
   emailjs.send(serviceId, templateId, templateParams, publicKey)
-  .then((response) => {
-    notyf.success('Your enquiry has been sent successfully! I will connect you shortly.');
-    document.getElementById('contactForm').reset();
+    .then((response) => {
+      notyf.success('Your enquiry has been sent successfully! I will connect you shortly.');
+      document.getElementById('contactForm').reset();
 
-  }, (error) => {
-    console.error('FAILED...', error);
-    notyf.error('Failed to send enquiry. Please try again later.');
-  });
+    }, (error) => {
+      console.error('FAILED...', error);
+      notyf.error('Failed to send enquiry. Please try again later.');
+    });
   return true;
 }
 
 
 const app = Vue.createApp({
-  
+
   data() {
 
     return {
-      
+
       // the date my career started (change to yours)
       careerStartDate: 2020,
 
@@ -126,7 +126,7 @@ const app = Vue.createApp({
         }, {
           imgUrl: 'assets/images/skills/jquery.png',
           title: 'jQuery'
-        },{
+        }, {
           imgUrl: 'assets/images/skills/nodejs.png',
           title: 'Node JS'
         },
@@ -195,7 +195,7 @@ const app = Vue.createApp({
 
       // list of experience items to loop through it
       experienceItems: [
-       {
+        {
           date: '2020',
           companyName: { en: 'NexGen Innovators', ar: '' },
           jobTitle: { en: 'Junior Web Developer', ar: '' },
@@ -236,7 +236,7 @@ const app = Vue.createApp({
 
       // list of portfolio items to loop through it
       allPortfolioItems: [
-         {
+        {
           url: 'https://starsnew.mindeservices.com',
           imgUrl: 'assets/images/portfolio/portfolio-1.png',
           title: { en: 'STARS', ar: '' },
@@ -244,25 +244,25 @@ const app = Vue.createApp({
           category: { slug: 'angular', name: 'Angular' }
         },
         {
-          url: 'https://bulkbuyindia.com',
+          url: 'https://www.pcstudio.in/',
           imgUrl: 'assets/images/portfolio/portfolio-2.png',
-          title: { en: 'Bulk Buy India', ar: '' },
-          desc: { en: 'April 2023', ar: '' },
-          category: { slug: 'angular', name: 'Angular' }
-        },
-       {
-          url: 'https://restaurants.theplace.com.ng/userpanel/home',
-          imgUrl: 'assets/images/portfolio/portfolio-3.png',
-          title: { en: 'The Place', ar: '' },
-          desc: { en: 'November 2022', ar: '' },
-          category: { slug: 'angular', name: 'Angular' }
+          title: { en: 'PC Studio', ar: '' },
+          desc: { en: 'April 2024', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         },
         {
-          url: 'https://justbook-app.com',
+          url: 'https://pankajcomputechsolution.com/',
+          imgUrl: 'assets/images/portfolio/portfolio-3.png',
+          title: { en: 'Pankaj Computech', ar: '' },
+          desc: { en: 'November 2024', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
+        },
+        {
+          url: 'https://duxido.in/',
           imgUrl: 'assets/images/portfolio/portfolio-4.png',
-          title: { en: 'Just Book', ar: '' },
-          desc: { en: 'September 2022', ar: '' },
-          category: { slug: 'angular', name: 'Angular' }
+          title: { en: 'Duxido', ar: '' },
+          desc: { en: 'September 2024', ar: '' },
+          category: { slug: 'wordpress', name: 'Wordpress' }
         },
         {
           url: 'https://digiwareitsolution.com',
@@ -436,11 +436,11 @@ const app = Vue.createApp({
     document.querySelectorAll('.has-ultimate-tooltip').forEach(el => {
       Popper.createPopper(el, el.querySelector('.ultimate-tooltip'), {
         placement: 'top',
-        modifiers: [{ name: 'offset', options: { offset: [0, 30] }}]
+        modifiers: [{ name: 'offset', options: { offset: [0, 30] } }]
       });
     });
   },
-  methods: {  
+  methods: {
     // initialize circle cursor
     initCircleCursor() {
       const app = this.$refs.appRef;
@@ -467,28 +467,28 @@ const app = Vue.createApp({
     getAppTheme() {
       // get the saved theme from the localStorage
       const storageSavedTheme = localStorage.getItem('nafieSavedTheme');
-    
+
       // Check to see if there a saved theme
       if (storageSavedTheme) {
         this.savedTheme = storageSavedTheme;
-    
+
       } else {
         // So, try to get the browser default theme or make your own default
-    
+
         // Check to see if Media-Queries are supported
         if (window.matchMedia) {
-    
+
           // Check if the dark-mode Media-Query matches
           if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             this.savedTheme = 'dark_theme';
           } else { this.savedTheme = 'light_theme'; }
-    
+
         } else {
           // Default (when Media-Queries are not supported)
           this.savedTheme = appTheme;
         }
       }
-    
+
       // save the new theme in the localStorage
       localStorage.setItem('nafieSavedTheme', this.savedTheme);
     },
@@ -546,7 +546,7 @@ const app = Vue.createApp({
           const visibleFocusableEls = [...nav.querySelectorAll(focusableElementsString)]
             .filter(el => window.getComputedStyle(el).getPropertyValue('visibility') !== 'hidden');
           firstTabStop = visibleFocusableEls[0];
-          lastTabStop = visibleFocusableEls[visibleFocusableEls.length -1];
+          lastTabStop = visibleFocusableEls[visibleFocusableEls.length - 1];
 
           if (e.code === 'Tab') {
             if (e.shiftKey) /* shift + tab */ {
@@ -592,14 +592,14 @@ const app = Vue.createApp({
     // scrolling options
     scrollingOptions() {
       const scrollPosition = window.pageYOffset;
-    
+
       // check for current scroll position to minimize the header
       this.isHeaderBig = (scrollPosition >= this.startMinimizingHeaderAt) ? false : true;
-    
+
       // check for current scroll position to toggle the header
       this.isHeaderHidden = ((scrollPosition > 100) && (scrollPosition > this.lastScrollPosition)) ? true : false;
       this.lastScrollPosition = scrollPosition;
-    
+
       // check for current scroll position to show the scrollTop button
       this.isScrollTopBtnDisplayed = (scrollPosition >= this.startShowingScrollTopBtnAt) ? true : false;
     },
@@ -627,9 +627,9 @@ const app = Vue.createApp({
       if ((this.portfolioItemsPage - 1) * size + size < this.allPortfolioItems.length) {
         this.portfolioItemsPage++;
         const itemsArr = this.allPortfolioItems.slice((this.portfolioItemsPage - 1) * size, this.portfolioItemsPage * size);
-  
+
         this.portfolioItems.push(...itemsArr);
-  
+
         // initialize VanillaTilt for new items
         setTimeout(() => this.portfolioItemsPage > 1 && this.initializeTilt(), 0);
 
@@ -643,7 +643,7 @@ const app = Vue.createApp({
         });
       }
     },
-    
+
     // contact form validation
     contactFormValidation() {
 
@@ -651,10 +651,10 @@ const app = Vue.createApp({
       const contactForm = this.$refs.contactForm;
 
       // form controls
-      const name        = contactForm.querySelector('input[name="name"]');
-      const email       = contactForm.querySelector('input[name="email"]');
-      const phone       = contactForm.querySelector('input[name="phone"]');
-      const message     = contactForm.querySelector('textarea');
+      const name = contactForm.querySelector('input[name="name"]');
+      const email = contactForm.querySelector('input[name="email"]');
+      const phone = contactForm.querySelector('input[name="phone"]');
+      const message = contactForm.querySelector('textarea');
 
       // form validation status
       let errors = {
@@ -800,8 +800,8 @@ const app = Vue.createApp({
         message.classList.add('valid');
       }
       var dataArray = $("form.contact-form").serializeArray(),
-      dataObj = {};
-      $(dataArray).each(function(index, field){
+        dataObj = {};
+      $(dataArray).each(function (index, field) {
         dataObj[field.name] = field.value;
       });
       sendEmail(dataObj);
@@ -845,7 +845,7 @@ const app = Vue.createApp({
     },
 
     // show messages by toast notifications
-    setNotify({id, className, msg, time}) {
+    setNotify({ id, className, msg, time }) {
       const notify = {
         id: id || `${Date.now()}${this.notifications.length}`,
         className,
@@ -926,29 +926,29 @@ const app = Vue.createApp({
     }
   }
 
-  
+
 });
 app.mount('#app');
 
 function playPopupVideo(video_embed_url) {
   let popup_html = '<div class="popup-overlay">\n' +
-      '        <img src="https://nexgi-static.nexgi.com/uploads/2021/05/cancel.svg" alt="cancel video popup" class="cancel-video-popup cp" onclick="closePopupPlyr(this)">\n' +
-      '        <div class="plyr__video-embed" id="player_container">\n' +
-      '            <iframe\n' +
-      '                    width="560" height="315"\n' +
-      '                    src="' + video_embed_url + '?autoplay=1&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"\n' +
-      '                    allowfullscreen\n' +
-      '                    allowtransparency\n' +
-      '                    allow="autoplay"\n' +
-      '            ></iframe>\n' +
-      '        </div>\n' +
-      '    </div>';
+    '        <img src="https://nexgi-static.nexgi.com/uploads/2021/05/cancel.svg" alt="cancel video popup" class="cancel-video-popup cp" onclick="closePopupPlyr(this)">\n' +
+    '        <div class="plyr__video-embed" id="player_container">\n' +
+    '            <iframe\n' +
+    '                    width="560" height="315"\n' +
+    '                    src="' + video_embed_url + '?autoplay=1&modestbranding=1&playsinline=1&showinfo=0&rel=0&enablejsapi=1"\n' +
+    '                    allowfullscreen\n' +
+    '                    allowtransparency\n' +
+    '                    allow="autoplay"\n' +
+    '            ></iframe>\n' +
+    '        </div>\n' +
+    '    </div>';
 
   $("body").find(".popup-overlay").remove();
   $("body").append(popup_html);
   const player = new Plyr('#player_container', {
-      title: 'Intro Video',
-      autoplay: true
+    title: 'Intro Video',
+    autoplay: true
   });
 }
 
