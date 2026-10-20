@@ -228,7 +228,17 @@ const app = Vue.createApp({
             en: 'My primary role was to provide end to end complex solution on Angular based web apps & web tools to automate various process, like Payroll, Expense and approval management system.',
             ar: ''
           }
-        }, {}, {}
+        },
+        {
+          date: '2026',
+          companyName: { en: 'Motherson Technology Center', ar: '' },
+          jobTitle: { en: 'SeniorSoftware Engineer', ar: '' },
+          desc: {
+            en: 'My primary role was to handle team and provide end to end complex solution and to automate various process.',
+            ar: ''
+          }
+        },
+        {}
       ],
 
       // filter type for items in portfolio section
@@ -258,17 +268,17 @@ const app = Vue.createApp({
           category: { slug: 'wordpress', name: 'Wordpress' }
         },
         {
-          url: 'https://duxido.in/',
+          url: 'https://singhtradingandsons.com/',
           imgUrl: 'assets/images/portfolio/portfolio-4.png',
-          title: { en: 'Duxido', ar: '' },
-          desc: { en: 'September 2024', ar: '' },
+          title: { en: 'Singh Trading & Sons', ar: '' },
+          desc: { en: 'October 2026', ar: '' },
           category: { slug: 'wordpress', name: 'Wordpress' }
         },
         {
-          url: 'https://digiwareitsolution.com',
+          url: 'https://www.vproinfo.com/',
           imgUrl: 'assets/images/portfolio/portfolio-5.png',
-          title: { en: 'Digiware', ar: '' },
-          desc: { en: 'February 2022', ar: '' },
+          title: { en: 'VPro Infoworld', ar: '' },
+          desc: { en: 'August 2026', ar: '' },
           category: { slug: 'wordpress', name: 'Wordpress' }
         },
         {
@@ -325,7 +335,7 @@ const app = Vue.createApp({
             ar: ''
           },
           quoteAuthor: { en: 'Arjun Singh', ar: '' },
-          jobTitle: { en: 'Founder: STS GRoup', ar: '' }
+          jobTitle: { en: 'Founder: STS Group', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
           quoteContent: {
@@ -373,8 +383,8 @@ const app = Vue.createApp({
             en: 'Amit was fantastic to work with! He created a professional, high-performing website that meets all our business needs perfectly.',
             ar: ''
           },
-          quoteAuthor: { en: 'Anup Kumar', ar: '' },
-          jobTitle: { en: 'Co-Founder: Digital Agency', ar: '' }
+          quoteAuthor: { en: 'Vikash Tak', ar: '' },
+          jobTitle: { en: 'Founder: VPro Infoworld', ar: '' }
         }, {
           imgUrl: 'assets/images/testimonials/testimonials-10.jpeg',
           quoteContent: {
@@ -644,6 +654,14 @@ const app = Vue.createApp({
       }
     },
 
+    // Keep phone input to at most 13 digits.
+    phoneInputValidation(event) {
+      const value = event.target.value;
+      const hasLeadingPlus = value.startsWith('+');
+      const digits = value.replace(/\D/g, '').slice(0, 13);
+      event.target.value = `${hasLeadingPlus ? '+' : ''}${digits}`;
+    },
+
     // contact form validation
     contactFormValidation() {
 
@@ -751,7 +769,7 @@ const app = Vue.createApp({
       /* ---------------- */
 
       // phone validation
-      if (phone.value.length > 0 && !/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im.test(phone.value)) {
+      if (phone.value.length > 0 && !/^\+?\d{1,13}$/.test(phone.value)) {
         errors.phone.invalid = true;
         this.setNotify({
           id: 'phoneInvalid',
