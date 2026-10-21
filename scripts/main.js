@@ -232,7 +232,7 @@ const app = Vue.createApp({
         {
           date: '2026',
           companyName: { en: 'Motherson Technology Center', ar: '' },
-          jobTitle: { en: 'SeniorSoftware Engineer', ar: '' },
+          jobTitle: { en: 'Senior Software Engineer', ar: '' },
           desc: {
             en: 'My primary role was to handle team and provide end to end complex solution and to automate various process.',
             ar: ''
